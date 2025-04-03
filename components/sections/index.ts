@@ -1,0 +1,8 @@
+export { HeroSection } from './HeroSection'
+export { AboutSection } from './AboutSection'
+export { FeaturesSection } from './FeaturesSection'
+export { LocationSection } from './LocationSection'
+export { PartnersSection } from './PartnersSection'
+export { TracksSection } from './TracksSection'
+export { PricingSection } from './PricingSection'
+export { CTASection } from './CTASection' 
