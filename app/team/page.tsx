@@ -46,7 +46,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Gadi</CardTitle>
-                  <CardDescription>81| Ex Cto Signia| Ex director Meta</CardDescription>
                 </CardHeader>
                 <CardContent className="p-4 pt-0">
                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -68,7 +67,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Roy</CardTitle>
-                  <CardDescription>Founder| Talpiot| Phd</CardDescription>
                 </CardHeader>
                  <CardContent className="p-4 pt-0">
                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -90,7 +88,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Asaf</CardTitle>
-                  <CardDescription>Talpiot| ex-McKinsey | INSEAD</CardDescription>
                 </CardHeader>
                  <CardContent className="p-4 pt-0">
                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -112,7 +109,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Ori A.</CardTitle>
-                  <CardDescription>| 81| Founder [stealth]| Israeli defense establishment awards winner</CardDescription>
                 </CardHeader>
                  <CardContent className="p-4 pt-0">
                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -134,7 +130,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Iddo</CardTitle>
-                  <CardDescription>Talpiot| Founder</CardDescription>
                 </CardHeader>
                  <CardContent className="p-4 pt-0">
                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -156,7 +151,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Ori</CardTitle>
-                  <CardDescription>81 | CEO| stealth| Israeli defense establishment awards winner</CardDescription>
                 </CardHeader>
                  <CardContent className="p-4 pt-0">
                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -178,7 +172,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Matan</CardTitle>
-                  <CardDescription>81| Psagot| Israeli defense establishment awards winner</CardDescription>
                 </CardHeader>
                 <CardContent className="p-4 pt-0">
                    <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -200,7 +193,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Shachar Cohen</CardTitle>
-                  <CardDescription>Talpiot</CardDescription>
                 </CardHeader>
                 <CardContent className="p-4 pt-0">
                    <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -222,7 +214,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Avishag</CardTitle>
-                  <CardDescription>| Columbia MSc</CardDescription>
                 </CardHeader>
                 <CardContent className="p-4 pt-0">
                    <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -244,7 +235,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Alon</CardTitle>
-                  <CardDescription>ARAM, Wiz</CardDescription>
                 </CardHeader>
                 <CardContent className="p-4 pt-0">
                    <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -266,7 +256,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Ofek</CardTitle>
-                  <CardDescription>Aram,</CardDescription>
                 </CardHeader>
                 <CardContent className="p-4 pt-0">
                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -288,7 +277,6 @@ export default function TeamPage() {
                 </div>
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Nativ Levy</CardTitle>
-                  <CardDescription> {/* Add Description if available */} </CardDescription>
                 </CardHeader>
                 <CardContent className="p-4 pt-0">
                    <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>

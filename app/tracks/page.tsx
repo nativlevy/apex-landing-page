@@ -217,7 +217,7 @@ export default function TracksPage() {
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
-                        <span>Direct connections to Unit 8200 and Talpiot alumni networks</span>
+                        <span>Direct connections to elite alumni networks</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-primary mt-0.5" />

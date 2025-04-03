@@ -8,7 +8,7 @@ const featureCards = [
   {
     title: "Elite Talent Pipeline",
     icon: Users,
-    description: "We channel elite tech alumni (Psagot, Arazim, Matoz, Brakim, Mador 60, Talpiot, Gaash) into specialized tracks."
+    description: "We channel elite tech military alumni into specialized tracks."
   },
   {
     title: "Economic Impact",

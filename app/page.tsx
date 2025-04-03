@@ -31,7 +31,7 @@ export default function Home() {
         <FeaturesSection />
         <TracksSection />
         <LocationSection />
-        <PricingSection />
+        {/* <PricingSection /> */}
         <CTASection />
       </main>
 

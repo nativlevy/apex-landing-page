@@ -14,50 +14,50 @@ export function PartnersSection() {
         </div>
         <div className="mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 items-center gap-8 py-8">
           <Image
-            src="https://cdn.brandfetch.io/monday.com/w/400/h/400?c=1idjQoo38323pC02ZXr"
-            alt="OpenAI"
+            src="https://cdn.brandfetch.io/mobileye.com/w/400/h/400"
+            alt="Mobileye"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
           />
           <Image
-            src="https://cdn.brandfetch.io/apple.com/w/400/h/400?c=1idjQoo38323pC02ZXr"
-            alt="Anthropic"
+            src="https://cdn.brandfetch.io/hailo.ai/w/400/h/400"
+            alt="Hailo"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
           />
           <Image
-            src="https://cdn.brandfetch.io/nvidia.com/w/400/h/400?c=1idjQoo38323pC02ZXr"
-            alt="NVIDIA"
+            src="https://cdn.brandfetch.io/gong.io/w/400/h/400"
+            alt="Gong"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
           />
           <Image
-            src="https://cdn.brandfetch.io/google.com/w/400/h/400?c=1idjQoo38323pC02ZXr"
-            alt="Google"
+            src="https://cdn.brandfetch.io/ai21.com/w/400/h/400"
+            alt="AI21 Labs"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
           />
           <Image
-            src="https://cdn.brandfetch.io/meta.com/w/400/h/400?c=1idjQoo38323pC02ZXr"
-            alt="Meta"
+            src="https://cdn.brandfetch.io/lightricks.com/w/400/h/400"
+            alt="Lightricks"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
           />
           <Image
-            src="https://cdn.brandfetch.io/microsoft.com/w/400/h/400?c=1idjQoo38323pC02ZXr"
-            alt="Microsoft"
+            src="https://cdn.brandfetch.io/run.ai/w/400/h/400"
+            alt="Run:ai"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
           />
           <Image
-            src="https://cdn.brandfetch.io/dreamgroup.com/w/400/h/400?c=1idjQoo38323pC02ZXr"
-            alt="Dream"
+            src="https://cdn.brandfetch.io/wiz.io/w/400/h/400"
+            alt="Wiz"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"

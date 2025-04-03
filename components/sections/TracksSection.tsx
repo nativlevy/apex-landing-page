@@ -17,10 +17,11 @@ export function TracksSection() {
           </div>
         </div>
         <div className="mx-auto max-w-3xl mt-12">
-          <Tabs defaultValue="founder" className="w-full">
+          <Tabs defaultValue="architect" className="w-full">
             <TabsList className="grid w-full grid-cols-2">
-              <TabsTrigger value="founder">Founder Track</TabsTrigger>
               <TabsTrigger value="architect">Architect Track</TabsTrigger>
+              <TabsTrigger value="founder">Founder Track</TabsTrigger>
+              
             </TabsList>
             <TabsContent value="architect" className="p-6 border rounded-lg mt-6">
               <div className="space-y-4">
