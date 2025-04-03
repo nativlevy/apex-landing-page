@@ -3,9 +3,10 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet"
 import { Menu, X } from "lucide-react"
 import { Logo } from "@/components/ui/logo"
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden"
 
 export function MobileNav() {
   const [open, setOpen] = useState(false)
@@ -19,12 +20,11 @@ export function MobileNav() {
         </Button>
       </SheetTrigger>
       <SheetContent side="left" className="flex flex-col">
+        <VisuallyHidden>
+          <SheetTitle>Mobile Navigation Menu</SheetTitle>
+        </VisuallyHidden>
         <div className="flex items-center justify-between border-b pb-4">
           <Logo size="sm" linkClassName="ml-1" />
-          <Button variant="ghost" onClick={() => setOpen(false)} className="p-0 w-8 h-8">
-            <X className="h-5 w-5" />
-            <span className="sr-only">Close menu</span>
-          </Button>
         </div>
         <nav className="flex flex-col gap-4 mt-6">
           <Link
