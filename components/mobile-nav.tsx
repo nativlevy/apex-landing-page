@@ -39,7 +39,7 @@ export function MobileNav() {
             className="text-base font-medium transition-colors hover:text-primary"
             onClick={() => setOpen(false)}
           >
-            Features
+            Model
           </Link>
           <Link
             href="/tracks"

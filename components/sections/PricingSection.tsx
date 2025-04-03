@@ -24,7 +24,7 @@ export function PricingSection() {
             <CardContent className="flex-1">
               <div className="flex items-baseline gap-1 mb-4">
                 <span className="text-4xl font-bold">$250</span>
-                <span className="text-muted-foreground">donation</span>
+                <span className="text-muted-foreground">program fee</span>
               </div>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">

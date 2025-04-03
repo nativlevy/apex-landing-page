@@ -25,7 +25,7 @@ export function Navbar({ activePage }: NavbarProps) {
             href="/#features" 
             className={`text-sm font-medium transition-colors hover:text-primary`}
           >
-            Features
+            Model
           </Link>
           <Link 
             href="/tracks" 
