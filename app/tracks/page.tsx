@@ -9,7 +9,7 @@ import { FounderCurriculum } from "@/components/founder-curriculum"
 import { Navbar } from "@/components/navbar"
 import Footer from "@/components/footer"
 import { Survey } from "@/components/survey"
-
+import { CTASection } from "@/components/sections/CTASection"
 export default function TracksPage() {
   return (
     <div className="flex min-h-screen flex-col">
@@ -278,62 +278,7 @@ export default function TracksPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground scroll-mt-16">
-          <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Ready to Join APEX?</h2>
-                  <p className="md:text-xl">
-                    Apply now to be part of Israel&apos;s AI future. Whether you&apos;re a technical builder or a
-                    visionary founder, we have a place for you.
-                  </p>
-                </div>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button asChild size="lg" variant="secondary">
-                    <Link href="/survey">Apply to Architect Track</Link>
-                  </Button>
-                  <Button asChild size="lg" variant="secondary">
-                    <Link href="#founder-apply">Apply to Founder Track</Link>
-                  </Button>
-                </div>
-              </div>
-              <div className="flex flex-col space-y-4 rounded-xl bg-primary-foreground/10 p-6">
-                <h3 className="text-xl font-bold text-primary-foreground">Have Questions?</h3>
-                <p className="text-primary-foreground/80">
-                  Reach out to our team to learn more about our programs, application process, or how you can get
-                  involved.
-                </p>
-                <form className="space-y-4">
-                  <div className="grid gap-2">
-                    <label htmlFor="email" className="sr-only">
-                      Email
-                    </label>
-                    <input
-                      id="email"
-                      placeholder="Enter your email"
-                      className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                      type="email"
-                    />
-                  </div>
-                  <div className="grid gap-2">
-                    <label htmlFor="message" className="sr-only">
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      placeholder="Your message"
-                      className="flex min-h-[100px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    />
-                  </div>
-                  <Button type="submit" className="w-full" variant="secondary">
-                    Send Message
-                  </Button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </section>
+        <CTASection />
       </main>
 
       <Footer />
