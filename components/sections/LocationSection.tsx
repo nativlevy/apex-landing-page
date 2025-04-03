@@ -41,24 +41,6 @@ export function LocationSection() {
             </div>
           </div>
         </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-          <div className="flex flex-col items-center text-center p-6 bg-muted rounded-xl">
-            <Clock className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-lg font-medium">Working Hours</h3>
-            <p className="text-muted-foreground mt-2">Sunday-Thursday<br />9:00 AM - 6:00 PM</p>
-          </div>
-          <div className="flex flex-col items-center text-center p-6 bg-muted rounded-xl">
-            <Train className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-lg font-medium">Transportation</h3>
-            <p className="text-muted-foreground mt-2">5 min walk from<br />HaHagana Station</p>
-          </div>
-          <div className="flex flex-col items-center text-center p-6 bg-muted rounded-xl">
-            <Coffee className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-lg font-medium">Amenities</h3>
-            <p className="text-muted-foreground mt-2">Cafés, shops, and<br />restaurants nearby</p>
-          </div>
-        </div>
       </div>
     </section>
   )
