@@ -279,10 +279,15 @@ export default function TeamPage() {
                   <CardTitle className="text-lg">Nativ Levy</CardTitle>
                 </CardHeader>
                 <CardContent className="p-4 pt-0">
-                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
+                   <p className="text-sm text-muted-foreground">{/* Placeholder Description */}</p>
                 </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
+                <CardFooter className="p-4 flex justify-start pt-0" >
                    {/* Add social links if available */}
+                   <Link href="https://www.linkedin.com/in/nativ-levy/" target="_blank" rel="noopener noreferrer">
+                    <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                      <Linkedin className="h-5 w-5" />
+                    </Button>
+                  </Link>
                 </CardFooter>
               </Card>
             </div>
