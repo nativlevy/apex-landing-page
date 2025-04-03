@@ -31,16 +31,17 @@ export default function TracksPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Button asChild size="lg" className="gap-2">
-                  <a href="#founder-track">
-                    Founder Track <ArrowRight className="h-4 w-4" />
-                  </a>
-                </Button>
-                <Button asChild variant="outline" size="lg" className="gap-2">
+              <Button asChild  size="lg" className="gap-2">
                   <a href="#architect-track">
                     Architect Track <ArrowRight className="h-4 w-4" />
                   </a>
                 </Button>
+                <Button asChild variant="outline" size="lg" className="gap-2">
+                  <a href="#founder-track">
+                    Founder Track <ArrowRight className="h-4 w-4" />
+                  </a>
+                </Button>
+                
               </div>
             </div>
           </div>
@@ -50,6 +51,40 @@ export default function TracksPage() {
         <section className="w-full py-12 md:py-24 bg-background">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
+            <div className="flex flex-col justify-center space-y-4">
+                <div className="inline-flex items-center space-x-2">
+                  <Code className="h-6 w-6 text-primary" />
+                  <h2 className="text-2xl font-bold tracking-tighter md:text-3xl">Architect Track</h2>
+                </div>
+                <p className="text-muted-foreground">
+                  For deep-tech leaders shaping AI&apos;s future. The Architect Track provides hands-on technical
+                  training covering AI foundations and emerging trends, taught by industry experts and leading
+                  practitioners.
+                </p>
+                <ul className="space-y-2">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
+                    <span>Comprehensive technical curriculum with 14 specialized lectures</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
+                    <span>Taught by industry experts and leading practitioners</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
+                    <span>Practical, hands-on learning with real-world applications</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
+                    <span>Direct pathway to AI-native roles in top companies</span>
+                  </li>
+                </ul>
+                <div>
+                  <Button asChild variant="outline" className="mt-4">
+                    <a href="#architect-track">Learn More</a>
+                  </Button>
+                </div>
+              </div>
               <div className="flex flex-col justify-center space-y-4">
                 <div className="inline-flex items-center space-x-2">
                   <Rocket className="h-6 w-6 text-primary" />
@@ -84,40 +119,41 @@ export default function TracksPage() {
                   </Button>
                 </div>
               </div>
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="inline-flex items-center space-x-2">
-                  <Code className="h-6 w-6 text-primary" />
-                  <h2 className="text-2xl font-bold tracking-tighter md:text-3xl">Architect Track</h2>
-                </div>
-                <p className="text-muted-foreground">
-                  For deep-tech leaders shaping AI&apos;s future. The Architect Track provides hands-on technical
-                  training covering AI foundations and emerging trends, taught by industry experts and leading
-                  practitioners.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-2">
-                    <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
-                    <span>Comprehensive technical curriculum with 14 specialized lectures</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
-                    <span>Taught by industry experts and leading practitioners</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
-                    <span>Practical, hands-on learning with real-world applications</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
-                    <span>Direct pathway to AI-native roles in top companies</span>
-                  </li>
-                </ul>
-                <div>
-                  <Button asChild variant="outline" className="mt-4">
-                    <a href="#architect-track">Learn More</a>
-                  </Button>
-                </div>
+
+            </div>
+          </div>
+        </section>
+
+                {/* Architect Track Section */}
+                <section id="architect-track" className="w-full py-12 md:py-24 lg:py-32 bg-background scroll-mt-16">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+              <div className="inline-flex items-center space-x-2">
+                <Code className="h-8 w-8 text-primary" />
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Architect Track</h2>
               </div>
+              <p className="max-w-[800px] text-muted-foreground md:text-xl">
+                A technical flash-course on AI covering the foundations and emerging trends
+              </p>
+            </div>
+
+            <div className="grid gap-8">
+              <Card>
+                <CardHeader>
+                  <CardTitle>Technical Curriculum</CardTitle>
+                  <CardDescription>
+                    Comprehensive training covering AI foundations, architectures, and practical applications
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <TechnicalCurriculum />
+                </CardContent>
+                <CardFooter>
+                  <Button asChild className="w-full">
+                    <Link href="/apply">Apply to Architect Track</Link>
+                  </Button>
+                </CardFooter>
+              </Card>
             </div>
           </div>
         </section>
@@ -243,39 +279,7 @@ export default function TracksPage() {
           </div>
         </section>
 
-        {/* Architect Track Section */}
-        <section id="architect-track" className="w-full py-12 md:py-24 lg:py-32 bg-background scroll-mt-16">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-              <div className="inline-flex items-center space-x-2">
-                <Code className="h-8 w-8 text-primary" />
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Architect Track</h2>
-              </div>
-              <p className="max-w-[800px] text-muted-foreground md:text-xl">
-                A technical flash-course on AI covering the foundations and emerging trends
-              </p>
-            </div>
 
-            <div className="grid gap-8">
-              <Card>
-                <CardHeader>
-                  <CardTitle>Technical Curriculum</CardTitle>
-                  <CardDescription>
-                    Comprehensive training covering AI foundations, architectures, and practical applications
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <TechnicalCurriculum />
-                </CardContent>
-                <CardFooter>
-                  <Button asChild className="w-full">
-                    <Link href="/apply">Apply to Architect Track</Link>
-                  </Button>
-                </CardFooter>
-              </Card>
-            </div>
-          </div>
-        </section>
 
         {/* CTA Section */}
         <CTASection />
