@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
   return (
-    <section className="w-full py-6 md:py-12 lg:py-20 xl:py-28 bg-gradient-to-b from-background to-muted">
+    <section className="w-full py-6 md:py-12 lg:py-20 xl:py-28">
       <div className="container px-8 md:px-12">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
