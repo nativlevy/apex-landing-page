@@ -38,7 +38,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=400"
+                    src="/team/gadi.jpeg"
                     alt="Gadi"
                     fill
                     className="object-cover"
@@ -59,7 +59,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=400"
+                    src="/team/roy.jpeg"
                     alt="Roy"
                     fill
                     className="object-cover"
@@ -80,7 +80,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=400"
+                    src="/team/asaf_tzur.jpeg"
                     alt="Asaf"
                     fill
                     className="object-cover"

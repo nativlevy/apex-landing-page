@@ -7,6 +7,7 @@ import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/s
 import { Menu, X } from "lucide-react"
 import { Logo } from "@/components/ui/logo"
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export function MobileNav() {
   const [open, setOpen] = useState(false)
@@ -56,7 +57,11 @@ export function MobileNav() {
             Team
           </Link>
         </nav>
-        <div className="flex flex-col gap-2 mt-auto">
+        <div className="flex flex-col gap-4 mt-auto">
+          <div className="flex items-center gap-2">
+            <span className="text-sm">Toggle Theme</span>
+            <ThemeToggle />
+          </div>
           <Button asChild className="w-full">
             <Link href="/apply" onClick={() => setOpen(false)}>
               Apply Now

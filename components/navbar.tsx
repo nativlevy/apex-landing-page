@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { MobileNav } from "@/components/mobile-nav"
 import { Logo } from "@/components/ui/logo"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 interface NavbarProps {
   activePage?: "home" | "tracks" | "team"
@@ -41,6 +42,7 @@ export function Navbar({ activePage }: NavbarProps) {
           </Link>
         </nav>
         <div className="flex items-center gap-4">
+          <ThemeToggle />
           <Button asChild className="hidden md:flex">
             <Link href="/apply">Apply Now</Link>
           </Button>

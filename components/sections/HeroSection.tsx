@@ -10,13 +10,12 @@ export function HeroSection() {
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <Badge className="inline-flex mb-2">From Defense Roots to Economic Reach</Badge>
+              <Badge className="inline-flex mb-2">From Defense to Deep Tech</Badge>
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                Building Israel&apos;s AI Advantage
+                Building Israel&apos;s AI Fortress
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                APEX is designed to secure Israel&apos;s leadership in AI by cultivating top talent and creating a
-                self-sustaining cycle of innovation.
+              APEX is a nonprofit launchpad turning Israel's top tech talent into AI founders and builders-securing the nation’s future through innovation.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">

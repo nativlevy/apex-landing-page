@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo size="sm" />
             <p className="text-sm text-muted-foreground">
-              Building Israel&apos;s AI Moat: From frontier tech to real-world traction - APEX gets you building.
+              Building Israel&apos;s AI Fortress: From frontier tech to real-world traction - APEX gets you building.
             </p>
           </div>
           <div className="space-y-4">
