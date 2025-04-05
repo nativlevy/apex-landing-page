@@ -12,6 +12,8 @@ export function PartnersSection() {
             </p>
           </div>
         </div>
+        {/*  Columbia, Harvard, MIT, Stanford,  Technion, Berkely, Princton ,Cornell 
+ Pinecone, Nvidia, Ai21, Antropic , Snowflake, Aiwork, Bria, Bright data, Vast data, Aidoc, Anecdotes ai, d-ID, Run.ai, Deci ai,  L-Sport, Silverfort, Coralogix Redhat,  Monday, Zendesk,  Meckinzey, Jp Morgan, Blackrock, BCG,   Dream Security, Wiz, Eon.io, Google, Microsoft, IBM, Meta, Microsoft, */}
         <div className="mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 items-center gap-8 py-8">
           {/* Universities */}
           <Image
@@ -43,7 +45,7 @@ export function PartnersSection() {
             className="object-contain h-12 w-auto mx-auto"
           />
           <Image
-            src="https://cdn.brandfetch.io/technion.ac.il/w/400/h/400"
+            src="https://cdn.brandfetch.io/ats.org/w/400/h/400"
             alt="Technion"
             width={120}
             height={60}
@@ -56,13 +58,13 @@ export function PartnersSection() {
             height={60}
             className="object-contain h-12 w-auto mx-auto"
           />
-          <Image
-            src="https://cdn.brandfetch.io/princeton.edu/w/400/h/400"
+          {/* <Image
+            src="https://cdn.brandfetch.io/princeton.edu/w/400/h/400?c=1idjQoo38323pC02ZXr"
             alt="Princeton"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
-          />
+          /> */}
           <Image
             src="https://cdn.brandfetch.io/cornell.edu/w/400/h/400"
             alt="Cornell"
@@ -108,7 +110,7 @@ export function PartnersSection() {
             className="object-contain h-12 w-auto mx-auto"
           />
           <Image
-            src="https://cdn.brandfetch.io/aiworks.co/w/400/h/400"
+            src="https://cdn.brandfetch.io/ai.work//w/400/h/400"
             alt="Aiwork"
             width={120}
             height={60}
@@ -170,13 +172,13 @@ export function PartnersSection() {
             height={60}
             className="object-contain h-12 w-auto mx-auto"
           />
-          <Image
+          {/* <Image
             src="https://cdn.brandfetch.io/l-sport.com/w/400/h/400"
             alt="L-Sport"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
-          />
+          /> */}
           <Image
             src="https://cdn.brandfetch.io/silverfort.com/w/400/h/400"
             alt="Silverfort"
@@ -241,7 +243,7 @@ export function PartnersSection() {
             className="object-contain h-12 w-auto mx-auto"
           />
           <Image
-            src="https://cdn.brandfetch.io/dreamsecurity.co.kr/w/400/h/400"
+            src="https://cdn.brandfetch.io/dreamgroup.com//w/400/h/400"
             alt="Dream Security"
             width={120}
             height={60}

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
   return (
-    <section className="w-full py-6 md:py-12 lg:py-20 xl:py-28">
+    <section className="w-full py-12 md:py-20 lg:py-32 xl:py-40 flex items-center min-h-[80vh]">
       <div className="container px-8 md:px-12">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
@@ -15,7 +15,7 @@ export function HeroSection() {
                 Building Israel&apos;s AI Fortress
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-              APEX is a nonprofit launchpad turning Israel's top tech talent into AI founders and builders-securing the nation’s future through innovation.
+              APEX is a nonprofit launchpad turning Israel's top tech talent into AI founders and builders-securing the nation's future through innovation.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">

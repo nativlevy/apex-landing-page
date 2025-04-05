@@ -15,11 +15,12 @@ export function LocationSection() {
         </div>
         
         <div className="relative mx-auto max-w-5xl overflow-hidden rounded-2xl shadow-lg">
-          <Image
-            src="/tahana.webp"
-            width={1200}
-            height={600}
-            alt="APEX Location - HaTachana Tel Aviv"
+          <video
+            src="/video.mov"
+            loop
+            autoPlay
+            muted
+            playsInline
             className="w-full h-[400px] md:h-[500px] object-cover"
           />
           
