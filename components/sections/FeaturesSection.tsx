@@ -53,7 +53,7 @@ export function FeaturesSection() {
               >
                 <Card className="h-full border-2 border-transparent hover:border-primary/20 transition-all duration-300 shadow-sm hover:shadow-md overflow-hidden group">
                   <CardHeader className="pb-6">
-                    <CardTitle className="text-xl font-semibold">{card.title}</CardTitle>
+                    <CardTitle className="text-xl font-semibold text-center">{card.title}</CardTitle>
                   </CardHeader>
                   <CardContent className="flex flex-col items-center">
                     <motion.div 

@@ -16,7 +16,7 @@ export function CTASection() {
                 you&apos;re a technical builder or a visionary founder, we have a place for you.
               </p>
             </div>
-            <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
+            <div className="flex flex-col gap-2 sm:flex-row justify-center flex-wrap">
               <Button asChild size="lg" variant="secondary">
                 <Link href="/apply">Apply to Architect Track</Link>
               </Button>
