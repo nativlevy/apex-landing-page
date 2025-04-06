@@ -14,7 +14,7 @@ export function PartnersSection() {
         </div>
         {/*  Columbia, Harvard, MIT, Stanford,  Technion, Berkely, Princton ,Cornell 
  Pinecone, Nvidia, Ai21, Antropic , Snowflake, Aiwork, Bria, Bright data, Vast data, Aidoc, Anecdotes ai, d-ID, Run.ai, Deci ai,  L-Sport, Silverfort, Coralogix Redhat,  Monday, Zendesk,  Meckinzey, Jp Morgan, Blackrock, BCG,   Dream Security, Wiz, Eon.io, Google, Microsoft, IBM, Meta, Microsoft, */}
-        <div className="mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 items-center gap-8 py-8">
+        <div className="mx-auto grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 items-center gap-8 py-8">
           {/* Universities */}
           <Image
             src="https://cdn.brandfetch.io/columbia.edu/w/400/h/400"
