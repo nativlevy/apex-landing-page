@@ -35,10 +35,10 @@ export function Navbar({ activePage }: NavbarProps) {
             Tracks
           </Link>
           <Link 
-            href="/team" 
+            href="/community" 
             className={`text-sm font-medium transition-colors hover:text-primary ${activePage === "team" ? "text-primary" : ""}`}
           >
-            Team
+            Community
           </Link>
         </nav>
         <div className="flex items-center gap-4">

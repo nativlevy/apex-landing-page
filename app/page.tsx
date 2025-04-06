@@ -11,6 +11,7 @@ import Footer from "@/components/footer"
 import {
   HeroSection,
   AboutSection,
+  VisionSection,
   FeaturesSection,
   LocationSection,
   PartnersSection,
@@ -27,6 +28,7 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <AboutSection />
+        <VisionSection />
         <PartnersSection />
         <FeaturesSection />
         <TracksSection />

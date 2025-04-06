@@ -36,7 +36,7 @@ export function AboutSection() {
               },
               {
                 title: "Israel's Edge in AI",
-                content: "Israel's advantage isn't data or GPUs-it's elite technical talent with a bias for action. From the army to the startup world, Israelis thrive in complexity and move fast. In AI, where execution and adaptability matter most, Israel is built to lead."
+                content: "Israel's advantage isn't data or GPUs-it's elite technical talent with a bias for action. From the army to the startup world, Israelis thrive in complexity and move fast."
               }
             ].map((item, index) => (
               <motion.div

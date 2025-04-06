@@ -50,11 +50,11 @@ export function MobileNav() {
             Tracks
           </Link>
           <Link
-            href="/team"
+            href="/community"
             className="text-base font-medium transition-colors hover:text-primary"
             onClick={() => setOpen(false)}
           >
-            Team
+            Community
           </Link>
         </nav>
         <div className="flex flex-col gap-4 mt-auto">

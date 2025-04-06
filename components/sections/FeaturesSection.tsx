@@ -6,19 +6,19 @@ import { motion } from "framer-motion"
 
 const featureCards = [
   {
-    title: "Elite Talent Pipeline",
+    title: "Dual-Track Growth Engine",
     icon: Users,
-    description: "We channel elite tech military alumni into specialized tracks."
+    description: "We identify and recruit Israel's top technologists, channeling them into focused tracks."
   },
   {
     title: "Economic Impact",
-    icon: Globe,
-    description: "Annual cohorts of 200 can lead to ~60 new companies per year and 60,000–100,000 new jobs over 5 years."
+    icon: Zap,
+    description: "Fueling 150+ startups and creating 60,000  jobs in 5 years-while reinforcing the ecosystem through open access and raw merit."
   },
   {
     title: "Self-Sustaining Model",
-    icon: Zap,
-    description: "Corporate partnerships and founder equity donations create a flywheel that funds future cohorts."
+    icon: Globe,
+    description: "Corporate partnerships and create a flywheel that funds future cohorts."
   }
 ]
 
@@ -34,9 +34,9 @@ export function FeaturesSection() {
           viewport={{ once: true }}
         >
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">How We Do It</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Building the Tech Spearhead</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-xl/relaxed xl:text-xl/relaxed mx-auto">
-              APEX turns talent into national-scale economic impact.
+              In a time of war and rapid technological change, Israel must leap forward. APEX builds a tech spearhead of elite AI talent to spark a nationwide transformation, driven by open access and pure merit.
             </p>
           </div>
         </motion.div>
