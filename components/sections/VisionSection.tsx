@@ -23,6 +23,9 @@ export function VisionSection() {
           <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground leading-relaxed font-light">
             APEX empowers Israel's top tech talent to lead the AI era-founding companies, accelerating innovation, and unlocking the next wave of builders. By <span className="font-semibold text-foreground">flipping the pyramid</span>, we use elite talent to lift the entire ecosystem, drive inclusive growth, and secure Israel's AI edge.
           </p>
+          <p className="text-2xl md:text-3xl lg:text-4xl font-bold mt-8 text-foreground">
+            5 Years. 500 Founders. 500 AI-Native Architects.
+          </p>
         </motion.div>
       </div>
     </section>
