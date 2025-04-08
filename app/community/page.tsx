@@ -47,11 +47,12 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Gadi</CardTitle>
                 </CardHeader>
-                <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                  {/* Add social links if available */}
+                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                  <Link href="#" target="_blank" rel="noopener noreferrer">
+                    <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                      <Linkedin className="h-5 w-5" />
+                    </Button>
+                  </Link>
                 </CardFooter>
               </Card>
 
@@ -68,12 +69,13 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Roy</CardTitle>
                 </CardHeader>
-                 <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                   {/* Add social links if available */}
-                </CardFooter>
+                 <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                 </CardFooter>
               </Card>
 
               {/* Asaf */}
@@ -89,12 +91,13 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Asaf</CardTitle>
                 </CardHeader>
-                 <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                   {/* Add social links if available */}
-                </CardFooter>
+                 <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                 </CardFooter>
               </Card>
 
                {/* Adi */}
@@ -110,12 +113,13 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Adi</CardTitle>
                 </CardHeader>
-                 <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                   {/* Add social links if available */}
-                </CardFooter>
+                 <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                 </CardFooter>
               </Card>
 
                {/* Ori A. */}
@@ -131,12 +135,13 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Ori A Oz</CardTitle>
                 </CardHeader>
-                 <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                  {/* Add social links if available */}
-                </CardFooter>
+                 <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                   <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                 </CardFooter>
               </Card>
 
                {/* Iddo */}
@@ -152,12 +157,13 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Iddo Tzur</CardTitle>
                 </CardHeader>
-                 <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                   {/* Add social links if available */}
-                </CardFooter>
+                 <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                 </CardFooter>
               </Card>
 
               {/* Ori */}
@@ -173,12 +179,13 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Ori</CardTitle>
                 </CardHeader>
-                 <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                   {/* Add social links if available */}
-                </CardFooter>
+                 <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                 </CardFooter>
               </Card>
 
               {/* Matan */}
@@ -194,11 +201,12 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Matan</CardTitle>
                 </CardHeader>
-                <CardContent className="p-4 pt-0">
-                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                   {/* Add social links if available */}
+                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
                 </CardFooter>
               </Card>
 
@@ -215,11 +223,12 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Shachar Cohen</CardTitle>
                 </CardHeader>
-                <CardContent className="p-4 pt-0">
-                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                  {/* Add social links if available */}
+                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                  <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
                 </CardFooter>
               </Card>
 
@@ -236,11 +245,12 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Avishag</CardTitle>
                 </CardHeader>
-                <CardContent className="p-4 pt-0">
-                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                   {/* Add social links if available */}
+                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                   <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
                 </CardFooter>
               </Card>
 
@@ -257,11 +267,12 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Alon</CardTitle>
                 </CardHeader>
-                <CardContent className="p-4 pt-0">
-                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                   {/* Add social links if available */}
+                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                   <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
                 </CardFooter>
               </Card>
 
@@ -278,11 +289,12 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Ofek</CardTitle>
                 </CardHeader>
-                <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
-                </CardContent>
-                <CardFooter className="p-4 flex justify-start gap-3">
-                   {/* Add social links if available */}
+                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
                 </CardFooter>
               </Card>
 
@@ -299,9 +311,6 @@ export default function TeamPage() {
                 <CardHeader className="p-4">
                   <CardTitle className="text-lg">Nativ Levy</CardTitle>
                 </CardHeader>
-                <CardContent className="p-4 pt-0">
-                   <p className="text-sm text-muted-foreground">{/* Placeholder Description */}</p>
-                </CardContent>
                 <CardFooter className="p-4 flex justify-start pt-0" >
                    {/* Add social links if available */}
                    <Link href="https://www.linkedin.com/in/nativ-levy/" target="_blank" rel="noopener noreferrer">
@@ -309,6 +318,160 @@ export default function TeamPage() {
                       <Linkedin className="h-5 w-5" />
                     </Button>
                   </Link>
+                </CardFooter>
+              </Card>
+
+              {/* Itzik */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/team/itzik.webp"
+                    alt="Itzik"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Itzik</CardTitle>
+                </CardHeader>
+                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                </CardFooter>
+              </Card>
+
+              {/* Ofer Herman */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/placeholder.svg?height=300&width=300"
+                    alt="Ofer Herman"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Ofer Herman</CardTitle>
+                </CardHeader>
+                <CardFooter className="p-4 flex justify-start pt-0">
+                    <Link href="https://www.linkedin.com/in/oferherman/" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                </CardFooter>
+              </Card>
+
+              {/* Ido Jengel */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/placeholder.svg?height=300&width=300"
+                    alt="Ido Jengel"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Ido Jengel</CardTitle>
+                </CardHeader>
+                <CardFooter className="p-4 flex justify-start pt-0">
+                    <Link href="https://www.linkedin.com/in/idojengel/" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                </CardFooter>
+              </Card>
+
+              {/* Elad Levi */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/placeholder.svg?height=300&width=300"
+                    alt="Elad Levi"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Elad Levi</CardTitle>
+                </CardHeader>
+                <CardFooter className="p-4 flex justify-start pt-0">
+                    <Link href="https://www.linkedin.com/in/elad-levi-a938a3121/" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                </CardFooter>
+              </Card>
+
+              {/* Ilan Kadar */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/placeholder.svg?height=300&width=300"
+                    alt="Ilan Kadar"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Ilan Kadar</CardTitle>
+                </CardHeader>
+                <CardFooter className="p-4 flex justify-start pt-0">
+                   <Link href="https://www.linkedin.com/in/ilan-kadar-b57ba511b/" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                </CardFooter>
+              </Card>
+
+              {/* Yael Daihes */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/placeholder.svg?height=300&width=300"
+                    alt="Yael Daihes"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Yael Daihes</CardTitle>
+                </CardHeader>
+                <CardFooter className="p-4 flex justify-start pt-0">
+                    <Link href="https://www.linkedin.com/in/yael-daihes/" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                </CardFooter>
+              </Card>
+
+              {/* Or Lenchner */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/placeholder.svg?height=300&width=300"
+                    alt="Or Lenchner"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Or Lenchner</CardTitle>
+                </CardHeader>
+                <CardFooter className="p-4 flex justify-start pt-0">
+                    <Link href="https://www.linkedin.com/in/orlenchner/" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
                 </CardFooter>
               </Card>
             </div>
@@ -328,9 +491,6 @@ export default function TeamPage() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
-                  <Button asChild size="lg">
-                    <Link href="#careers">View Open Positions</Link>
-                  </Button>
                   <Button asChild variant="outline" size="lg">
                     <Link href="mailto:careers@apex-ai.org">Contact Us</Link>
                   </Button>

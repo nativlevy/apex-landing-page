@@ -22,22 +22,22 @@ export function LocationSection() {
             className="w-full aspect-video"
             frameBorder="0"
           ></iframe>
-          
-          <div className="absolute bottom-0 left-0 right-0 bg-black/20 backdrop-blur-md p-8 rounded-b-2xl">
-            <div className="grid md:grid-cols-2 gap-6 items-center">
-              <div className="text-white">
-                <h3 className="text-2xl font-medium mb-2">HaTachana</h3>
-                <p className="text-white/80 text-lg">
-                  Ashkelon Street 14, Tel Aviv-Yafo
-                </p>
-              </div>
-              <div className="flex justify-center md:justify-end">
-                <Button asChild size="lg" variant="secondary" className="rounded-full px-6">
-                  <Link href="https://www.google.com/maps/place/Ashkelon+St+14,+Tel+Aviv-Jaffa/@32.058565,34.7596384,17z/data=!3m1!4b1!4m6!3m5!1s0x151d4c97924f5d37:0x155f2101d62d20d6!8m2!3d32.058565!4d34.762208!16s%2Fg%2F11dzn3x976?entry=ttu&g_ep=EgoyMDI1MDMzMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
-                    Open in Maps
-                  </Link>
-                </Button>
-              </div>
+        </div>
+
+        <div className="mx-auto max-w-5xl mt-8 p-8"> 
+          <div className="grid md:grid-cols-2 gap-6 items-center">
+            <div>
+              <h3 className="text-2xl font-medium mb-2 text-foreground">HaTachana</h3>
+              <p className="text-muted-foreground text-lg">
+                Ashkelon Street 14, Tel Aviv-Yafo
+              </p>
+            </div>
+            <div className="flex justify-center md:justify-end">
+              <Button asChild size="lg" variant="secondary" className="rounded-full px-6">
+                <Link href="https://www.google.com/maps/place/Ashkelon+St+14,+Tel+Aviv-Jaffa/@32.058565,34.7596384,17z/data=!3m1!4b1!4m6!3m5!1s0x151d4c97924f5d37:0x155f2101d62d20d6!8m2!3d32.058565!4d34.762208!16s%2Fg%2F11dzn3x976?entry=ttu&g_ep=EgoyMDI1MDMzMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+                  Open in Maps
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
