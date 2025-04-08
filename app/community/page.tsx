@@ -127,13 +127,13 @@ export default function TeamPage() {
                 <div className="aspect-square relative">
                   <Image
                     src="/team/Ori_A_oz.webp"
-                    alt="Ori A Oz"
+                    alt="Ori"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Ori A Oz</CardTitle>
+                  <CardTitle className="text-lg">Ori</CardTitle>
                 </CardHeader>
                  <CardFooter className="p-4 flex justify-start gap-3 pt-0">
                    <Link href="#" target="_blank" rel="noopener noreferrer">
@@ -170,7 +170,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=400"
+                    src="/team/ori_a.webp"
                     alt="Ori"
                     fill
                     className="object-cover"
@@ -192,7 +192,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=300&width=300"
+                    src="/team/matan.webp"
                     alt="Matan"
                     fill
                     className="object-cover"
@@ -214,7 +214,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=300&width=300"
+                    src="/team/shachar.webp"
                     alt="Shachar Cohen"
                     fill
                     className="object-cover"
@@ -347,7 +347,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=300&width=300"
+                    src="/team/ofer_herman.jpeg"
                     alt="Ofer Herman"
                     fill
                     className="object-cover"
@@ -369,14 +369,14 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=300&width=300"
-                    alt="Ido Jengel"
+                    src="/team/ido_engel.jpeg"
+                    alt="Ido Engel"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Ido Jengel</CardTitle>
+                  <CardTitle className="text-lg">Ido Engel</CardTitle>
                 </CardHeader>
                 <CardFooter className="p-4 flex justify-start pt-0">
                     <Link href="https://www.linkedin.com/in/idojengel/" target="_blank" rel="noopener noreferrer">
@@ -391,7 +391,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=300&width=300"
+                    src="/team/elad_levi.jpeg"
                     alt="Elad Levi"
                     fill
                     className="object-cover"
@@ -413,7 +413,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=300&width=300"
+                    src="/team/ilan_kader.jpeg"
                     alt="Ilan Kadar"
                     fill
                     className="object-cover"
@@ -435,7 +435,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=300&width=300"
+                    src="/team/yael.jpeg"
                     alt="Yael Daihes"
                     fill
                     className="object-cover"
@@ -457,7 +457,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=300&width=300"
+                    src="/team/or_lenchner.jpeg"
                     alt="Or Lenchner"
                     fill
                     className="object-cover"
