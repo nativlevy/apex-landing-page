@@ -15,14 +15,13 @@ export function LocationSection() {
         </div>
         
         <div className="relative mx-auto max-w-5xl overflow-hidden rounded-2xl shadow-lg">
-          <video
-            src="/video.mov"
-            loop
-            autoPlay
-            muted
-            playsInline
-            className="w-full h-[400px] md:h-[500px] object-cover"
-          />
+          <iframe
+            src="https://player.vimeo.com/video/1073398143?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+            title="video-1"
+            className="w-full aspect-video"
+            frameBorder="0"
+          ></iframe>
           
           <div className="absolute bottom-0 left-0 right-0 bg-black/20 backdrop-blur-md p-8 rounded-b-2xl">
             <div className="grid md:grid-cols-2 gap-6 items-center">

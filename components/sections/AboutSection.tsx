@@ -78,6 +78,12 @@ export function AboutSection() {
                         <span className="font-semibold text-primary">Israel is built to lead</span>
                         {item.content.split('Israel is built to lead')[1]}
                       </>
+                    ) : item.content.includes('we have to build') ? (
+                      <>
+                        {item.content.split('we have to build')[0]}
+                        <span className="font-semibold text-primary">we have to build</span>
+                        {item.content.split('we have to build')[1]}
+                      </>
                     ) : (
                       item.content
                     )}

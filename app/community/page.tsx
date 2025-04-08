@@ -97,18 +97,39 @@ export default function TeamPage() {
                 </CardFooter>
               </Card>
 
-               {/* Ori A. */}
+               {/* Adi */}
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=400"
-                    alt="Ori A."
+                    src="/team/adi.jpeg"
+                    alt="Adi"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Ori A.</CardTitle>
+                  <CardTitle className="text-lg">Adi</CardTitle>
+                </CardHeader>
+                 <CardContent className="p-4 pt-0">
+                  <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
+                </CardContent>
+                <CardFooter className="p-4 flex justify-start gap-3">
+                   {/* Add social links if available */}
+                </CardFooter>
+              </Card>
+
+               {/* Ori A. */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/team/Ori_A_oz.webp"
+                    alt="Ori A Oz"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Ori A Oz</CardTitle>
                 </CardHeader>
                  <CardContent className="p-4 pt-0">
                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -122,14 +143,14 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=400"
-                    alt="Iddo"
+                    src="/team/iddo_tzur.webp"
+                    alt="Iddo Tzur"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Iddo</CardTitle>
+                  <CardTitle className="text-lg">Iddo Tzur</CardTitle>
                 </CardHeader>
                  <CardContent className="p-4 pt-0">
                   <p className="text-sm text-muted-foreground"> {/* Placeholder Description */} </p>
@@ -206,7 +227,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=300&width=300"
+                    src="/team/avishag.jpeg"
                     alt="Avishag"
                     fill
                     className="object-cover"
@@ -269,7 +290,7 @@ export default function TeamPage() {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/placeholder.svg?height=300&width=300"
+                    src="/team/nativ.jpeg"
                     alt="Nativ Levy"
                     fill
                     className="object-cover"

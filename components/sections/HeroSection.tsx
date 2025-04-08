@@ -26,7 +26,8 @@ export function HeroSection() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="https://images.unsplash.com/photo-1702468049239-49fd1cf99d20?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://images.unsplash.com/photo-1598087495082-15d7dd26cf53?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              // src="https://images.unsplash.com/photo-1544971587-b842c27f8e14?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               width={550}
               height={550}
               alt="APEX AI Initiative"

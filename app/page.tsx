@@ -17,7 +17,8 @@ import {
   PartnersSection,
   TracksSection,
   PricingSection,
-  CTASection
+  CTASection,
+  QASection
 } from "@/components/sections"
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
         <TracksSection />
         <LocationSection />
         {/* <PricingSection /> */}
+        <QASection />
         <CTASection />
       </main>
 

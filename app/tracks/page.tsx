@@ -10,6 +10,9 @@ import { Navbar } from "@/components/navbar"
 import Footer from "@/components/footer"
 import { Survey } from "@/components/survey"
 import { CTASection } from "@/components/sections/CTASection"
+import { FounderQASection } from "@/components/sections/FounderQASection"
+import { ArchitectQASection } from "@/components/sections/ArchitectQASection"
+
 export default function TracksPage() {
   return (
     <div className="flex min-h-screen flex-col">
@@ -158,6 +161,9 @@ export default function TracksPage() {
           </div>
         </section>
 
+        {/* Architect Q&A Section */}
+        <ArchitectQASection />
+
         {/* Founder Track Section */}
         <section id="founder-track" className="w-full py-12 md:py-24 lg:py-32 bg-muted scroll-mt-16">
           <div className="container px-4 md:px-6">
@@ -279,7 +285,8 @@ export default function TracksPage() {
           </div>
         </section>
 
-
+        {/* Founder Q&A Section */}
+        <FounderQASection />
 
         {/* CTA Section */}
         <CTASection />

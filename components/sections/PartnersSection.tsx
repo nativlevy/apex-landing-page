@@ -165,13 +165,13 @@ export function PartnersSection() {
             height={60}
             className="object-contain h-12 w-auto mx-auto"
           />
-          <Image
+          {/* <Image
             src="https://cdn.brandfetch.io/deci.ai/w/400/h/400"
             alt="Deci AI"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
-          />
+          /> */}
           {/* <Image
             src="https://cdn.brandfetch.io/l-sport.com/w/400/h/400"
             alt="L-Sport"
