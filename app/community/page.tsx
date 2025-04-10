@@ -15,7 +15,7 @@ export default function TeamPage() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        {/* <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -28,27 +28,32 @@ export default function TeamPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Team Section */}
         <section className="w-full py-12 md:py-24 bg-background">
           <div className="container px-4 md:px-6">
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-              {/* Gadi */}
+            {/* Founding Team Section */}
+            <div className="mb-12 text-center">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Founding Team</h2>
+              <p className="text-muted-foreground md:text-xl mt-2">The core team leading APEX.</p>
+            </div>
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 mb-16">
+              {/* Tal Fialkow */}
               <Card className="overflow-hidden">
                 <div className="aspect-square relative">
                   <Image
-                    src="/team/gadi.jpeg"
-                    alt="Gadi"
+                    src="/team/tal.jpeg"
+                    alt="Tal Fialkow"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Gadi</CardTitle>
+                  <CardTitle className="text-lg">Tal Fialkow</CardTitle>
                 </CardHeader>
                 <CardFooter className="p-4 flex justify-start gap-3 pt-0">
-                  <Link href="#" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.linkedin.com/in/tal-fialkow-486b8455/" target="_blank" rel="noopener noreferrer">
                     <Button variant="ghost" size="icon" aria-label="LinkedIn">
                       <Linkedin className="h-5 w-5" />
                     </Button>
@@ -70,12 +75,108 @@ export default function TeamPage() {
                   <CardTitle className="text-lg">Roy</CardTitle>
                 </CardHeader>
                  <CardFooter className="p-4 flex justify-start gap-3 pt-0">
-                    <Link href="#" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://www.linkedin.com/in/roy-nissim/" target="_blank" rel="noopener noreferrer">
                       <Button variant="ghost" size="icon" aria-label="LinkedIn">
                         <Linkedin className="h-5 w-5" />
                       </Button>
                     </Link>
                  </CardFooter>
+              </Card>
+
+              {/* Alon */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/team/alon.jpg"
+                    alt="Alon"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Alon</CardTitle>
+                </CardHeader>
+                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                   <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                </CardFooter>
+              </Card>
+
+              {/* Ofek */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/team/ofek.jpeg"
+                    alt="Ofek"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Ofek</CardTitle>
+                </CardHeader>
+                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                    <Link href="#" target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                </CardFooter>
+              </Card>
+
+              {/* Nativ Levy */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/team/nativ.jpeg"
+                    alt="Nativ Levy"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Nativ Levy</CardTitle>
+                </CardHeader>
+                <CardFooter className="p-4 flex justify-start pt-0" >
+                   {/* Add social links if available */}
+                   <Link href="https://www.linkedin.com/in/nativ-levy/" target="_blank" rel="noopener noreferrer">
+                    <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                      <Linkedin className="h-5 w-5" />
+                    </Button>
+                  </Link>
+                </CardFooter>
+              </Card>
+            </div>
+
+            {/* Community Section */}
+            <div className="mb-12 text-center">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Community</h2>
+                <p className="text-muted-foreground md:text-xl mt-2">Our valued community members contributing to APEX's mission.</p>
+            </div>
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+              {/* Gadi */}
+              <Card className="overflow-hidden">
+                <div className="aspect-square relative">
+                  <Image
+                    src="/team/gadi.jpeg"
+                    alt="Gadi"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <CardHeader className="p-4">
+                  <CardTitle className="text-lg">Gadi</CardTitle>
+                </CardHeader>
+                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                  <Link href="#" target="_blank" rel="noopener noreferrer">
+                    <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                      <Linkedin className="h-5 w-5" />
+                    </Button>
+                  </Link>
+                </CardFooter>
               </Card>
 
               {/* Asaf */}
@@ -251,73 +352,6 @@ export default function TeamPage() {
                         <Linkedin className="h-5 w-5" />
                       </Button>
                     </Link>
-                </CardFooter>
-              </Card>
-
-              {/* Alon */}
-              <Card className="overflow-hidden">
-                <div className="aspect-square relative">
-                  <Image
-                    src="/placeholder.svg?height=300&width=300"
-                    alt="Alon"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Alon</CardTitle>
-                </CardHeader>
-                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
-                   <Link href="#" target="_blank" rel="noopener noreferrer">
-                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
-                        <Linkedin className="h-5 w-5" />
-                      </Button>
-                    </Link>
-                </CardFooter>
-              </Card>
-
-              {/* Ofek */}
-              <Card className="overflow-hidden">
-                <div className="aspect-square relative">
-                  <Image
-                    src="/placeholder.svg?height=300&width=300"
-                    alt="Ofek"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Ofek</CardTitle>
-                </CardHeader>
-                <CardFooter className="p-4 flex justify-start gap-3 pt-0">
-                    <Link href="#" target="_blank" rel="noopener noreferrer">
-                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
-                        <Linkedin className="h-5 w-5" />
-                      </Button>
-                    </Link>
-                </CardFooter>
-              </Card>
-
-              {/* Nativ Levy */}
-              <Card className="overflow-hidden">
-                <div className="aspect-square relative">
-                  <Image
-                    src="/team/nativ.jpeg"
-                    alt="Nativ Levy"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Nativ Levy</CardTitle>
-                </CardHeader>
-                <CardFooter className="p-4 flex justify-start pt-0" >
-                   {/* Add social links if available */}
-                   <Link href="https://www.linkedin.com/in/nativ-levy/" target="_blank" rel="noopener noreferrer">
-                    <Button variant="ghost" size="icon" aria-label="LinkedIn">
-                      <Linkedin className="h-5 w-5" />
-                    </Button>
-                  </Link>
                 </CardFooter>
               </Card>
 
