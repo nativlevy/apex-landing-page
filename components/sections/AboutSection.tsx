@@ -27,7 +27,7 @@ export function AboutSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               {
-                title: "From Fast Wins to the Next War",
+                title: "From Fast Wins to Future Leadership",
                 content: "Israel leads in cyber-fast wins, clear playbook. To stay ahead, we have to build. We can't afford to fall behind."
               },
               {
