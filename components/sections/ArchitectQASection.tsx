@@ -41,7 +41,7 @@ export function ArchitectQASection() {
               <ul className="list-disc list-outside space-y-1 pl-6 text-muted-foreground text-base">
                 <li>Pass a technical entry test</li>
                 <li>Complete ~20 hours of pre-course reading</li>
-                <li>Actively job-seeking in AI/data-driven environments</li>
+                <li>Actively seeking a technical role</li>
                 <li>Ready to contribute to high-stakes, real-world projects</li>
               </ul>
             </AccordionContent>

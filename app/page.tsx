@@ -20,6 +20,7 @@ import {
   CTASection,
   QASection
 } from "@/components/sections"
+import { Community } from "@/components/community"
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
 
       <main className="flex-1">
         <HeroSection />
+        <Community />
         <AboutSection />
         <VisionSection />
         <PartnersSection />

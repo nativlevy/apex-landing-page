@@ -33,10 +33,7 @@ export function QASection() {
                 </p>
                 <ol className="list-decimal list-outside space-y-3 pl-6 text-muted-foreground text-base marker:font-semibold marker:text-primary">
                   <li>
-                    <span className="font-semibold text-foreground">Built for Top Talent</span> - Unlike open courses, APEX is designed for Israel's best: top-tier tech alumni and IDF unit grads. The result? A high-trust, high-talent cohort and network.
-                  </li>
-                  <li>
-                    <span className="font-semibold text-foreground">From Mastery to Impact</span> - For those who've already mastered the stack, APEX adds real-world velocity, product context, and access to frontier use cases—turning engineers into industry leaders.
+                    <span className="font-semibold text-foreground">Built for Excellence</span> - APEX is designed for exceptional talent. The result? A high-trust, high-talent cohort and network.
                   </li>
                   <li>
                     <span className="font-semibold text-foreground">Hands-On, High-Stakes AI</span> - It's not about lectures. Participants work with industry leaders to build and deploy AI-first solutions, with deep mentorship and applied learning.
