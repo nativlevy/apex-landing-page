@@ -95,7 +95,7 @@ export function Community() {
               <CardTitle className="text-lg">Avishag</CardTitle>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0">
-               <Link href="#" target="_blank" rel="noopener noreferrer">
+               <Link href="https://www.linkedin.com/in/avishagbohbot/" target="_blank" rel="noopener noreferrer">
                   <Button variant="ghost" size="icon" aria-label="LinkedIn">
                     <Linkedin className="h-5 w-5" />
                   </Button>
