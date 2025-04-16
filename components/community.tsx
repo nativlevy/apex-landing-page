@@ -59,50 +59,6 @@ export function Community() {
              </CardFooter>
           </Card>
 
-          {/* Alon */}
-          <Card className="overflow-hidden">
-            <div className="aspect-square relative">
-              <Image
-                src="/team/alon.jpg"
-                alt="Alon"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <CardHeader className="p-4">
-              <CardTitle className="text-lg">Alon</CardTitle>
-            </CardHeader>
-            <CardFooter className="p-4 flex justify-start gap-3 pt-0">
-               <Link href="#" target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
-                    <Linkedin className="h-5 w-5" />
-                  </Button>
-                </Link>
-            </CardFooter>
-          </Card>
-
-          {/* Ofek */}
-          <Card className="overflow-hidden">
-            <div className="aspect-square relative">
-              <Image
-                src="/team/ofek.jpeg"
-                alt="Ofek"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <CardHeader className="p-4">
-              <CardTitle className="text-lg">Ofek</CardTitle>
-            </CardHeader>
-            <CardFooter className="p-4 flex justify-start gap-3 pt-0">
-                <Link href="#" target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
-                    <Linkedin className="h-5 w-5" />
-                  </Button>
-                </Link>
-            </CardFooter>
-          </Card>
-
           {/* Nativ Levy */}
           <Card className="overflow-hidden">
             <div className="aspect-square relative">
@@ -154,6 +110,50 @@ export function Community() {
             <p className="text-muted-foreground md:text-xl mt-2">Our valued community members contributing to APEX's mission.</p>
         </div>
         <div className="grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          {/* Alon */}
+          <Card className="overflow-hidden">
+            <div className="aspect-square relative">
+              <Image
+                src="/team/alon.jpg"
+                alt="Alon"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <CardHeader className="p-4">
+              <CardTitle className="text-lg">Alon</CardTitle>
+            </CardHeader>
+            <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+               <Link href="#" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5" />
+                  </Button>
+                </Link>
+            </CardFooter>
+          </Card>
+
+          {/* Ofek */}
+          <Card className="overflow-hidden">
+            <div className="aspect-square relative">
+              <Image
+                src="/team/ofek.jpeg"
+                alt="Ofek"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <CardHeader className="p-4">
+              <CardTitle className="text-lg">Ofek</CardTitle>
+            </CardHeader>
+            <CardFooter className="p-4 flex justify-start gap-3 pt-0">
+                <Link href="#" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5" />
+                  </Button>
+                </Link>
+            </CardFooter>
+          </Card>
+
           {/* Gadi */}
           <Card className="overflow-hidden">
             <div className="aspect-square relative">
