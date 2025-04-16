@@ -27,6 +27,7 @@ export function Community() {
             </div>
             <CardHeader className="p-4">
               <CardTitle className="text-lg">Tal Fialkow</CardTitle>
+              <CardDescription>VP AI Cyber at Dream</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0">
               <Link href="https://www.linkedin.com/in/tal-fialkow-486b8455/" target="_blank" rel="noopener noreferrer">
@@ -188,6 +189,7 @@ export function Community() {
             </div>
             <CardHeader className="p-4">
               <CardTitle className="text-lg">Asaf</CardTitle>
+              <CardDescription>ex-McKinsey, Talpiot Graduate</CardDescription>
             </CardHeader>
              <CardFooter className="p-4 flex justify-start gap-3 pt-0">
                 <Link href="#" target="_blank" rel="noopener noreferrer">
@@ -364,6 +366,7 @@ export function Community() {
             </div>
             <CardHeader className="p-4">
               <CardTitle className="text-lg">Ofer Herman</CardTitle>
+              <CardDescription>Co-founder & CTO Papaya Global</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start pt-0">
                 <Link href="https://www.linkedin.com/in/oferherman/" target="_blank" rel="noopener noreferrer">
@@ -374,7 +377,7 @@ export function Community() {
             </CardFooter>
           </Card>
 
-          {/* Ido Jengel */}
+          {/* Ido Engel */}
           <Card className="overflow-hidden">
             <div className="aspect-square relative">
               <Image
@@ -386,6 +389,7 @@ export function Community() {
             </div>
             <CardHeader className="p-4">
               <CardTitle className="text-lg">Ido Engel</CardTitle>
+              <CardDescription>Microsoft Cloud & AI GTM Lead</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start pt-0">
                 <Link href="https://www.linkedin.com/in/idojengel/" target="_blank" rel="noopener noreferrer">
@@ -408,6 +412,7 @@ export function Community() {
             </div>
             <CardHeader className="p-4">
               <CardTitle className="text-lg">Elad Levi</CardTitle>
+              <CardDescription>CTO & Co-Founder @ Plurai | PhD Math</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start pt-0">
                 <Link href="https://www.linkedin.com/in/elad-levi-a938a3121/" target="_blank" rel="noopener noreferrer">
@@ -430,6 +435,7 @@ export function Community() {
             </div>
             <CardHeader className="p-4">
               <CardTitle className="text-lg">Ilan Kadar</CardTitle>
+              <CardDescription>Co-Founder and CEO @ Plurai | PhD Machine Learning/Computer Vision</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start pt-0">
                <Link href="https://www.linkedin.com/in/ilan-kadar-b57ba511b/" target="_blank" rel="noopener noreferrer">
@@ -452,6 +458,7 @@ export function Community() {
             </div>
             <CardHeader className="p-4">
               <CardTitle className="text-lg">Yael Daihes</CardTitle>
+              <CardDescription>Head of AI @ Anecdotes</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start pt-0">
                 <Link href="https://www.linkedin.com/in/yael-daihes/" target="_blank" rel="noopener noreferrer">
