@@ -37,7 +37,7 @@ interface Lecture {
 // Pre-materials content
 const preMaterials = {
   id: "pre-materials",
-  title: "Pre-Course Assignment (~20 Hours)",
+  title: "Pre-Course Assignment",
   description: "Foundational math, deep learning intuition, hands-on LLM building (Micrograd to GPT), and academic theory to prepare for the program.",
   topics: [
     "Linear Algebra (Matrices, Transpose, Vectors), Calculus (Derivatives, Chain Rule, Gradient Descent), Probability (Distributions, Expectations, Variance)",
