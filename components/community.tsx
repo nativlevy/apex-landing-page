@@ -323,10 +323,11 @@ export function Community() {
               />
             </div>
             <CardHeader className="p-4">
-              <CardTitle className="text-lg">Matan</CardTitle>
+              <CardTitle className="text-lg">Matan Cohen</CardTitle>
+              <CardDescription>ex-8200 | ex-81</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
-                <Link href="#" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/matan-cohen-547686b9/" target="_blank" rel="noopener noreferrer">
                   <Button variant="ghost" size="icon" aria-label="LinkedIn">
                     <Linkedin className="h-5 w-5" />
                   </Button>
@@ -484,7 +485,7 @@ export function Community() {
             </div>
             <CardHeader className="p-4">
               <CardTitle className="text-lg">Yael Daihes</CardTitle>
-              <CardDescription>Head of AI @ Anecdotes</CardDescription>
+              <CardDescription>Head of AI at Anecdotes</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
                 <Link href="https://www.linkedin.com/in/yael-daihes/" target="_blank" rel="noopener noreferrer">
