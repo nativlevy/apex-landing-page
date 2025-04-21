@@ -158,6 +158,7 @@ export function Community() {
             </div>
             <CardHeader className="p-4">
               <CardTitle className="text-lg">Nativ Levy</CardTitle>
+              <CardDescription>Founder | ex-81</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto" >
                {/* Add social links if available */}
@@ -187,7 +188,7 @@ export function Community() {
               />
             </div>
             <CardHeader className="p-4">
-              <CardTitle className="text-lg">Gadi</CardTitle>
+              <CardTitle className="text-lg">Gadi Lifshitz</CardTitle>
               <CardDescription>Director Meta, Ex CTO at Sygnia</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
@@ -210,7 +211,7 @@ export function Community() {
               />
             </div>
             <CardHeader className="p-4">
-              <CardTitle className="text-lg">Asaf</CardTitle>
+              <CardTitle className="text-lg">Asaf Tzur</CardTitle>
               <CardDescription>ex-McKinsey | Founding Partner at Demo Capital</CardDescription>
             </CardHeader>
              <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
@@ -233,33 +234,11 @@ export function Community() {
               />
             </div>
             <CardHeader className="p-4">
-              <CardTitle className="text-lg">Adi</CardTitle>
+              <CardTitle className="text-lg">Adi Glasman</CardTitle>
               <CardDescription>Vice President of Engineering & Data Zendesk</CardDescription>
             </CardHeader>
              <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
                 <Link href="https://www.linkedin.com/in/glasman/" target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
-                    <Linkedin className="h-5 w-5" />
-                  </Button>
-                </Link>
-             </CardFooter>
-          </Card>
-
-           {/* Ori A. */}
-          <Card className="overflow-hidden flex flex-col h-full">
-            <div className="aspect-square relative">
-              <Image
-                src="/team/Ori_A_oz.webp"
-                alt="Ori"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <CardHeader className="p-4">
-              <CardTitle className="text-lg">Ori</CardTitle>
-            </CardHeader>
-             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
-               <Link href="#" target="_blank" rel="noopener noreferrer">
                   <Button variant="ghost" size="icon" aria-label="LinkedIn">
                     <Linkedin className="h-5 w-5" />
                   </Button>
@@ -290,75 +269,7 @@ export function Community() {
              </CardFooter>
           </Card>
 
-          {/* Ori */}
-          <Card className="overflow-hidden flex flex-col h-full">
-            <div className="aspect-square relative">
-              <Image
-                src="/team/ori_a.webp"
-                alt="Ori"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <CardHeader className="p-4">
-              <CardTitle className="text-lg">Ori</CardTitle>
-            </CardHeader>
-             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
-                <Link href="#" target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
-                    <Linkedin className="h-5 w-5" />
-                  </Button>
-                </Link>
-             </CardFooter>
-          </Card>
-
-          {/* Matan */}
-          <Card className="overflow-hidden flex flex-col h-full">
-            <div className="aspect-square relative">
-              <Image
-                src="/team/matan.webp"
-                alt="Matan"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <CardHeader className="p-4">
-              <CardTitle className="text-lg">Matan Cohen</CardTitle>
-              <CardDescription>ex-8200 | ex-81</CardDescription>
-            </CardHeader>
-            <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
-                <Link href="https://www.linkedin.com/in/matan-cohen-547686b9/" target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
-                    <Linkedin className="h-5 w-5" />
-                  </Button>
-                </Link>
-            </CardFooter>
-          </Card>
-
-          {/* Shachar Cohen */}
-          <Card className="overflow-hidden flex flex-col h-full">
-            <div className="aspect-square relative">
-              <Image
-                src="/team/shachar.webp"
-                alt="Shachar Cohen"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <CardHeader className="p-4">
-              <CardTitle className="text-lg">Shachar Cohen</CardTitle>
-              <CardDescription>4M, Talpiot</CardDescription>
-            </CardHeader>
-            <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
-              <Link href="https://www.linkedin.com/in/shachar-cohen-480b86205/" target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
-                    <Linkedin className="h-5 w-5" />
-                  </Button>
-                </Link>
-            </CardFooter>
-          </Card>
-
-           {/* Itzik */}
+          {/* Itzik */}
           <Card className="overflow-hidden flex flex-col h-full">
             <div className="aspect-square relative">
               <Image
@@ -517,6 +428,96 @@ export function Community() {
                   </Button>
                 </Link>
             </CardFooter>
+          </Card>
+
+          {/* Matan */}
+          <Card className="overflow-hidden flex flex-col h-full">
+            <div className="aspect-square relative">
+              <Image
+                src="/team/matan.webp"
+                alt="Matan"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <CardHeader className="p-4">
+              <CardTitle className="text-lg">Matan Cohen</CardTitle>
+              <CardDescription>ex-8200 | ex-81</CardDescription>
+            </CardHeader>
+            <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
+                <Link href="https://www.linkedin.com/in/matan-cohen-547686b9/" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5" />
+                  </Button>
+                </Link>
+            </CardFooter>
+          </Card>
+
+          {/* Shachar Cohen */}
+          <Card className="overflow-hidden flex flex-col h-full">
+            <div className="aspect-square relative">
+              <Image
+                src="/team/shachar.webp"
+                alt="Shachar Cohen"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <CardHeader className="p-4">
+              <CardTitle className="text-lg">Shachar Cohen</CardTitle>
+              <CardDescription>4M, Talpiot</CardDescription>
+            </CardHeader>
+            <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
+              <Link href="https://www.linkedin.com/in/shachar-cohen-480b86205/" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5" />
+                  </Button>
+                </Link>
+            </CardFooter>
+          </Card>
+
+          {/* Ori A. */}
+          <Card className="overflow-hidden flex flex-col h-full">
+            <div className="aspect-square relative">
+              <Image
+                src="/team/Ori_A_oz.webp"
+                alt="Ori"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <CardHeader className="p-4">
+              <CardTitle className="text-lg">Ori</CardTitle>
+            </CardHeader>
+             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
+               <Link href="#" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5" />
+                  </Button>
+                </Link>
+             </CardFooter>
+          </Card>
+
+          {/* Ori */}
+          <Card className="overflow-hidden flex flex-col h-full">
+            <div className="aspect-square relative">
+              <Image
+                src="/team/ori_a.webp"
+                alt="Ori"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <CardHeader className="p-4">
+              <CardTitle className="text-lg">Ori</CardTitle>
+            </CardHeader>
+             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
+                <Link href="#" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5" />
+                  </Button>
+                </Link>
+             </CardFooter>
           </Card>
         </div>
       </div>
