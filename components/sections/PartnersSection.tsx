@@ -236,6 +236,13 @@ export function PartnersSection() {
             className="object-contain h-12 w-auto mx-auto"
           />
           <Image
+            src="https://cdn.brandfetch.io/lsports.eu/w/400/h/400"
+            alt="Cyber.ai"
+            width={120}
+            height={60}
+            className="object-contain h-12 w-auto mx-auto"
+          />
+          <Image
             src="https://cdn.brandfetch.io/bcg.com/w/400/h/400"
             alt="BCG"
             width={120}
@@ -291,6 +298,7 @@ export function PartnersSection() {
             height={60}
             className="object-contain h-12 w-auto mx-auto"
           />
+
         </div>
       </div>
     </section>
