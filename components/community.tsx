@@ -119,6 +119,7 @@ export function Community() {
             </div>
             <CardHeader className="p-4">
               <CardTitle className="text-lg">Alon</CardTitle>
+              <CardDescription>Building</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
             </CardFooter>
@@ -135,7 +136,8 @@ export function Community() {
               />
             </div>
             <CardHeader className="p-4">
-              <CardTitle className="text-lg">Ofek</CardTitle>
+              <CardTitle className="text-lg">Ofek Censor</CardTitle>
+              <CardDescription>Building</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
                 <Link href="https://www.linkedin.com/in/ofek-c-483192320/" target="_blank" rel="noopener noreferrer">
