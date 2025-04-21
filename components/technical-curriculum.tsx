@@ -37,45 +37,19 @@ interface Lecture {
 // Pre-materials content
 const preMaterials = {
   id: "pre-materials",
-  title: "Pre-Course Materials",
-  description: "Essential resources to prepare you for the technical curriculum ahead.",
+  title: "Pre-Course Assignment (~20 Hours)",
+  description: "Foundational math, deep learning intuition, hands-on LLM building (Micrograd to GPT), and academic theory to prepare for the program.",
   topics: [
-    "Advanced Python with focus on data structures and functions",
-    "Introduction to mathematical concepts (linear algebra, calculus, probability)",
-    "Basic machine learning concepts and terminology",
-    "Setting up your development environment (Git, Python, Jupyter, VS Code)",
-    "Introduction to neural networks and deep learning",
-    "Basic PyTorch and TensorFlow tutorials",
-    "Reading list of foundational AI papers and resources",
-  ],
-  resources: [
-    {
-      name: "Mathematics for Machine Learning",
-      description: "Review of essential mathematical concepts for AI",
-      url: "https://mml-book.github.io/"
-    },
-    {
-      name: "Fast.ai Practical Deep Learning",
-      description: "Hands-on deep learning for coders",
-      url: "https://course.fast.ai/"
-    },
-    {
-      name: "Deep Learning Book",
-      description: "Comprehensive deep learning theory and practice",
-      url: "https://www.deeplearningbook.org/"
-    },
-    {
-      name: "Hugging Face Courses",
-      description: "NLP and transformers practical introduction",
-      url: "https://huggingface.co/course/"
-    }
+    "Linear Algebra (Matrices, Transpose, Vectors), Calculus (Derivatives, Chain Rule, Gradient Descent), Probability (Distributions, Expectations, Variance)",
+    "Neural Network fundamentals (Neurons, Layers, Backpropagation)",
+    "Building LLMs from scratch (Micrograd, Makemore, WaveNet, GPT, Tokenizer) with practical exercises",
+    "Overview of DL Architectures (Transformers, CNNs, RNNs) & Research Paper Analysis",
   ],
   icon: <Book className="w-6 h-6" />,
-  level: "beginner",
+  level: "beginner", // Foundational material
   techLogos: [
     "https://cdn.brandfetch.io/python.org/w/400/h/400?c=1idjQoo38323pC02ZXr",
     "https://cdn.brandfetch.io/pytorch.org/w/400/h/400?c=1idjQoo38323pC02ZXr",
-    "https://cdn.brandfetch.io/tensorflow.org/w/400/h/400?c=1idjQoo38323pC02ZXr",
   ]
 }
 
@@ -353,7 +327,7 @@ export function TechnicalCurriculum() {
                   </div>
                 </div>
                 <div className="p-6 bg-background">
-                  <h4 className="text-sm font-medium text-muted-foreground mb-3">Recommended Preparation</h4>
+                  <h4 className="text-sm font-medium text-muted-foreground mb-3">Topics Covered</h4>
                   <ul className="space-y-2 mb-6">
                     {preMaterials.topics.map((topic, i) => (
                       <li key={i} className="flex items-start gap-2">

@@ -118,10 +118,15 @@ export function Community() {
               />
             </div>
             <CardHeader className="p-4">
-              <CardTitle className="text-lg">Alon</CardTitle>
+              <CardTitle className="text-lg">Alon Kejzman</CardTitle>
               <CardDescription>Building</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
+              <Link href="https://www.linkedin.com/in/alon-kejzman/" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                  <Linkedin className="h-5 w-5" />
+                </Button>
+              </Link>
             </CardFooter>
           </Card>
 
@@ -140,7 +145,7 @@ export function Community() {
               <CardDescription>Building</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
-                <Link href="https://www.linkedin.com/in/ofek-c-483192320/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/ofekc/" target="_blank" rel="noopener noreferrer">
                   <Button variant="ghost" size="icon" aria-label="LinkedIn">
                     <Linkedin className="h-5 w-5" />
                   </Button>
