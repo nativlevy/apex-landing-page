@@ -276,6 +276,29 @@ export function Community() {
              </CardFooter>
           </Card>
 
+          {/* Tamir Meerovitch */}
+          <Card className="overflow-hidden flex flex-col h-full">
+            <div className="aspect-square relative">
+              <Image
+                src="/team/tal_meerovitch.jpeg"
+                alt="Tamir Meerovitch"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <CardHeader className="p-4">
+              <CardTitle className="text-lg">Tamir Meerovitch</CardTitle>
+              <CardDescription>Sr. Growth Strategy Executive at Frost & Sullivan</CardDescription> 
+            </CardHeader>
+             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
+                <Link href="https://www.linkedin.com/in/tamir-meerovitch/" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5" />
+                  </Button>
+                </Link>
+             </CardFooter>
+          </Card>
+
           {/* Itzik */}
           <Card className="overflow-hidden flex flex-col h-full">
             <div className="aspect-square relative">
