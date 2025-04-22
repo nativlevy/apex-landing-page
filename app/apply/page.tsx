@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function SurveyPage() {
   return (
-    <div className="">
+    <div className="h-screen w-screen">
       <Survey />
     </div>
   );
