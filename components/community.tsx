@@ -49,7 +49,7 @@ export function Community() {
               />
             </div>
             <CardHeader className="p-4">
-              <CardTitle className="text-lg">Roy</CardTitle>
+              <CardTitle className="text-lg">Roy Nissim</CardTitle>
               <CardDescription>2x Founder | PhD</CardDescription>
             </CardHeader>
              <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
@@ -72,7 +72,7 @@ export function Community() {
               />
             </div>
             <CardHeader className="p-4">
-              <CardTitle className="text-lg">Avishag</CardTitle>
+              <CardTitle className="text-lg">Avishag Bohbot</CardTitle>
               <CardDescription>Venture Builder VelocityX, Social Entrepreneur</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
