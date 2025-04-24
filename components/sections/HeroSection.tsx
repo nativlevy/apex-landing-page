@@ -15,7 +15,7 @@ export function HeroSection() {
                 Building Israel&apos;s AI Fortress
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-              APEX is a nonprofit launchpad turning Israel's top tech talent into AI founders and builders-securing the nation's future through innovation.
+              APEX is a launchpad turning Israel's top tech talent into AI founders and builders-securing the nation's future through innovation.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
