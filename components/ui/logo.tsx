@@ -16,8 +16,8 @@ export function Logo({
 }: LogoProps) {
   const logoSizes = {
     sm: { width: 20, height: 20, className: "h-5 w-5" },
-    md: { width: 24, height: 24, className: "h-6 w-6" },
-    lg: { width: 32, height: 32, className: "h-8 w-8" }
+    md: { width: 32, height: 32, className: "h-8 w-8" },
+    lg: { width: 40, height: 40, className: "h-10 w-10" }
   }
   
   const { width, height, className: sizeClassName } = logoSizes[size];
@@ -31,7 +31,7 @@ export function Logo({
         height={height} 
         className={`${sizeClassName} object-contain ${className}`}
       />
-      {showText && <span className={`font-bold font-['Poppins'] ${size === "lg" ? "text-2xl" : size === "md" ? "text-xl" : "text-base"}`}>APEX</span>}
+      {showText && <span className={`font-bold font-['Poppins'] tracking-wide ${size === "lg" ? "text-3xl" : size === "md" ? "text-2xl" : "text-base"}`}>APEX</span>}
     </Link>
   )
 } 

@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 import {
   Accordion,
   AccordionContent,
@@ -12,12 +12,13 @@ export function QASection() {
   return (
     <section id="qa" className="w-full py-16 md:py-24 lg:py-32 bg-background scroll-mt-16 overflow-hidden">
       <div className="container px-4 md:px-6 max-w-4xl mx-auto">
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-        >
+        > */}
+        <div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">
             General Questions
           </h2>
@@ -83,7 +84,8 @@ export function QASection() {
             </AccordionItem>
           </Accordion>
 
-        </motion.div>
+        </div>
+        {/* </motion.div> */}
       </div>
     </section>
   )

@@ -66,7 +66,7 @@ export function FounderCurriculum() {
     <Accordion type="single" collapsible className="w-full">
       {founderModules.map((module) => (
         <AccordionItem key={module.id} value={module.id}>
-          <AccordionTrigger>{module.title}</AccordionTrigger>
+          <AccordionTrigger className="text-left">{module.title}</AccordionTrigger>
           <AccordionContent>{module.content}</AccordionContent>
         </AccordionItem>
       ))}

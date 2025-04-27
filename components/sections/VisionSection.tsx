@@ -1,19 +1,20 @@
 'use client';
 
 import { Pyramid } from 'lucide-react';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 export function VisionSection() {
   return (
     <section id="vision" className="w-full py-16 md:py-24 lg:py-32 bg-gradient-to-b from-muted to-background scroll-mt-16 overflow-hidden">
       <div className="container px-4 md:px-6">
-        <motion.div
+        {/* <motion.div
           className="flex flex-col items-center justify-center space-y-6 text-center max-w-5xl mx-auto"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-        >
+        > */}
+        <div className="flex flex-col items-center justify-center space-y-6 text-center max-w-5xl mx-auto">
           <div className="p-4 rounded-full bg-primary/10 inline-flex">
             <Pyramid className="h-8 w-8 text-primary" />
           </div>
@@ -26,7 +27,7 @@ export function VisionSection() {
           <p className="text-2xl md:text-3xl lg:text-4xl font-bold mt-8 text-foreground">
             5 Years. 500 Founders. 500 AI-Native Architects.
           </p>
-        </motion.div>
+        {/* </motion.div> */} </div>
       </div>
     </section>
   );

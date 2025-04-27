@@ -1,18 +1,19 @@
 'use client';
 
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 
 export function AboutSection() {
   return (
     <section id="about" className="w-full py-16 md:py-24 lg:py-32 bg-background scroll-mt-16 overflow-hidden">
       <div className="container px-4 md:px-6">
-        <motion.div 
+        {/* <motion.div 
           className="flex flex-col items-center justify-center space-y-4 text-center"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-        >
+        > */}
+        <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               Why We&apos;re Building APEX
@@ -21,7 +22,7 @@ export function AboutSection() {
               We&apos;re Zionists, and we believe Israel must keep leading at the edge of technology.
             </p>
           </div>
-        </motion.div>
+        </div>
         
         <div className="mx-auto max-w-5xl py-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -39,23 +40,25 @@ export function AboutSection() {
                 content: "Israel's advantage isn't data or GPUs-it's elite technical talent with a bias for action. From the army to the startup world, Israelis thrive in complexity and move fast."
               }
             ].map((item, index) => (
-              <motion.div
-                key={index}
-                className="flex flex-col"
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
+              // <motion.div
+              //   key={index}
+              //   className="flex flex-col"
+              //   initial={{ opacity: 0, y: 30 }}
+              //   whileInView={{ opacity: 1, y: 0 }}
+              //   transition={{ duration: 0.7, delay: index * 0.1 }}
+              //   viewport={{ once: true }}
+              // >
+              <div key={index} className="flex flex-col">
                 <div className="mb-4 flex items-center justify-center">
                   <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
                     <span className="text-2xl font-bold text-primary">{index + 1}</span>
                   </div>
                 </div>
-                <motion.div
+                {/* <motion.div
                   className="p-6 rounded-3xl bg-white dark:bg-gray-900 shadow-sm hover:shadow-lg transition-all duration-300 h-full"
                   whileHover={{ y: -5 }}
-                >
+                > */}
+                <div className="p-6 rounded-3xl bg-white dark:bg-gray-900 shadow-sm hover:shadow-lg transition-all duration-300 h-full">
                   <h3 className="text-xl font-semibold mb-4 tracking-tight">
                     {item.title}
                   </h3>
@@ -88,8 +91,8 @@ export function AboutSection() {
                       item.content
                     )}
                   </p>
-                </motion.div>
-              </motion.div>
+                </div>
+              </div>
             ))}
           </div>
         </div>
