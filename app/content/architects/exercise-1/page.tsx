@@ -847,9 +847,35 @@ wandb.finish()`}
                   <p><i>Note: Some items in the original markdown list were potentially redundant or referred to files generated/named in specific phases. The list above reflects the final expected structure based on the phase descriptions.</i></p>
         </section>
 
+        <section id="further-reading">
+            <h2>11. Further Reading</h2>
+            <p>Explore these additional resources for deeper insights into related topics:</p>
+            <ul>
+                <li>
+                    <a href="https://arxiv.org/pdf/2502.04227" target="_blank" rel="noopener noreferrer">
+                        Large Language Models for Network Intrusion Detection (arXiv:2502.04227)
+                    </a> - Research paper exploring LLM capabilities for detecting network intrusions.
+                </li>
+                <li>
+                    <a href="https://arxiv.org/pdf/2409.11276" target="_blank" rel="noopener noreferrer">
+                        Evaluating LLMs for Network Traffic Analysis (arXiv:2409.11276)
+                    </a> - Research paper evaluating the performance of LLMs on network traffic analysis tasks.
+                </li>
+                <li>
+                    <a href="https://cybersecurity.springeropen.com/articles/10.1186/s42400-025-00361-w" target="_blank" rel="noopener noreferrer">
+                        Cybersecurity Journal Article on Network Security Analysis
+                    </a> - Discusses machine learning approaches for network security analysis (SpringerOpen).
+                </li>
+                <li>
+                    <a href="https://github.com/guanwei49/LogLLM" target="_blank" rel="noopener noreferrer">
+                        LogLLM: LLMs for Log Analysis (GitHub Repository)
+                    </a> - A project demonstrating the use of Large Language Models for log understanding and analysis.
+                </li>
+            </ul>
+        </section>
 
         <section id="conclusion">
-            <h2>10. Conclusion</h2>
+            <h2>12. Conclusion</h2>
             <p>Congratulations! You've completed the APEX Exercise. This project has provided you with a comprehensive experience in data engineering, machine learning, and large language model integration. You've learned to:</p>
             <ul>
                 <li>Ingest and explore data.</li>
@@ -863,7 +889,7 @@ wandb.finish()`}
         </section>
 
         <section id="next-steps">
-            <h2>11. Next Steps</h2>
+            <h2>13. Next Steps</h2>
             <p>Good luck! We hope you find this a challenging and rewarding learning experience.</p>
         </section>
 
