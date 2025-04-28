@@ -667,7 +667,7 @@ wandb.finish()`}
 
             {/* Apply decisionPoint style */}
             <div className={styles.decisionPoint}>
-                 <strong>!! Decision Point: Choose Your LLM Path !!</strong><br />
+                 <strong>Decision Point: Choose Your LLM Path</strong><br />
                  Discuss within your team based on interest, time commitment, and comfort with infrastructure/cost management.<br />
                  Proceed to Phase 5S (Standard Path) or Phase 5A (Advanced Path).
              </div>
