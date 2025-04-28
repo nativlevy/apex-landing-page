@@ -64,14 +64,14 @@ export default function ApexExercisePage() {
                 {/* Apply timelineItem style */}
                 <div className={styles.timelineItem}>
                     {/* Apply phaseNum style */}
-                    <h4><span className={styles.phaseNum}>0</span>Setup & Preparation</h4>
+                    <h4><a href="#phase0"><span className={styles.phaseNum}>0</span>Setup & Preparation</a></h4>
                     <div className="details">Focus: All | Est. Time: 3 hrs</div> {/* Note: details class is targeted within timelineItem in CSS */}
                     <p>AWS account/IAM setup, cost alerts, local development environment, Git repository, W&B login.</p>
                 </div>
 
                 {/* Apply timelineItem style */}
                 <div className={styles.timelineItem}>
-                    <h4><span className={styles.phaseNum}>1</span>Data Ingestion & Exploration</h4>
+                    <h4><a href="#phase1"><span className={styles.phaseNum}>1</span>Data Ingestion & Exploration</a></h4>
                     <div className="details">Focus: Data Eng | Est. Time: 4 hrs</div>
                     <p>Set up SageMaker Notebook, load data from S3, perform EDA, map IPs to segments, clean data, save results to S3.</p>
                     <p><strong>Deliverable:</strong> Cleaned data (Parquet), <code>eda.ipynb</code>.</p>
@@ -79,7 +79,7 @@ export default function ApexExercisePage() {
 
                 {/* Apply timelineItem style */}
                 <div className={styles.timelineItem}>
-                     <h4><span className={styles.phaseNum}>2</span>Research & Approach Design</h4>
+                     <h4><a href="#phase2"><span className={styles.phaseNum}>2</span>Research & Approach Design</a></h4>
                      <div className="details">Focus: All | Est. Time: 3 hrs</div>
                      <p>Brainstorm features/models/LLM use cases. Research existing methods using provided tools. Decide on initial technical approach.</p>
                      <p><strong>Deliverable:</strong> <code>research_summary.md</code>.</p>
@@ -87,7 +87,7 @@ export default function ApexExercisePage() {
 
                 {/* Apply timelineItem style */}
                 <div className={styles.timelineItem}>
-                     <h4><span className={styles.phaseNum}>3</span>Feature Engineering & Embeddings</h4>
+                     <h4><a href="#phase3"><span className={styles.phaseNum}>3</span>Feature Engineering & Embeddings</a></h4>
                      <div className="details">Focus: ML Eng | Est. Time: 5 hrs</div>
                      <p>Implement features based on research. Generate text embeddings (e.g., for segment purpose). Assemble and scale the final feature set.</p>
                      <p><strong>Deliverable:</strong> Feature dataset (Parquet), <code>feature_engineering.ipynb/script</code>.</p>
@@ -95,7 +95,7 @@ export default function ApexExercisePage() {
 
                  {/* Apply timelineItem style */}
                  <div className={styles.timelineItem}>
-                      <h4><span className={styles.phaseNum}>4</span>ML Anomaly Detection</h4>
+                      <h4><a href="#phase4"><span className={styles.phaseNum}>4</span>ML Anomaly Detection</a></h4>
                       <div className="details">Focus: ML Eng | Est. Time: 7 hrs</div>
                       <p>Implement ≥2 unsupervised anomaly detection models (e.g., Isolation Forest, KMeans) in SageMaker. Integrate with W&B for experiment tracking. Train models and save anomaly scores.</p>
                       <p><strong>Deliverable:</strong> ML results (Parquet), <code>ml_modeling.ipynb/train.py</code>, W&B link.</p>
@@ -109,14 +109,14 @@ export default function ApexExercisePage() {
                     <div className={styles.timelinePaths}>
                         {/* Apply timelinePath style */}
                         <div className={styles.timelinePath}>
-                            <h5><span className={styles.phaseNum}>5S</span> Standard Path: Bedrock</h5>
+                            <h5><a href="#phase5s"><span className={styles.phaseNum}>5S</span> Standard Path: Bedrock</a></h5>
                              <div className="details">Focus: LLM/AI Eng | Est. Time: 5 hrs</div>
                              <p>Integrate with AWS Bedrock API. Develop prompts. Analyze top anomalies using chosen Bedrock model (e.g., Claude Haiku). Save LLM analysis.</p>
                              <p><strong>Deliverable:</strong> <code>llm_analysis_bedrock.py</code>, results JSON.</p>
                         </div>
                         {/* Apply timelinePath style */}
                         <div className={styles.timelinePath}>
-                             <h5><span className={styles.phaseNum}>5A</span> Advanced Path: Self-Hosted</h5>
+                             <h5><a href="#phase5a"><span className={styles.phaseNum}>5A</span> Advanced Path: Self-Hosted</a></h5>
                              <div className="details">Focus: LLM/AI Eng | Est. Time: +10-20 hrs</div>
                              <p>Set up GPU environment (SageMaker/EC2). Select, load (optional: quantize), and serve an open-source LLM (e.g., Llama 3 8B). Analyze anomalies. High complexity & cost risk.</p>
                              <p><strong>Deliverable:</strong> <code>self_hosted_llm.py</code>, results JSON, <code>README_Advanced.md</code>.</p>
@@ -129,7 +129,7 @@ export default function ApexExercisePage() {
 
                  {/* Apply timelineItem style */}
                 <div className={styles.timelineItem}>
-                    <h4><span className={styles.phaseNum}>6</span>Pipeline Integration & Orchestration</h4>
+                    <h4><a href="#phase6"><span className={styles.phaseNum}>6</span>Pipeline Integration & Orchestration</a></h4>
                     <div className="details">Focus: MLOps/Integrator | Est. Time: 5 hrs</div>
                     <p>Create <code>main.py</code> to automate steps 1-5. Use <code>argparse</code> for parameters (including LLM backend choice). Implement logging and error handling. Ensure reproducibility.</p>
                     <p><strong>Deliverable:</strong> <code>main.py</code>, updated <code>README.md</code>, <code>requirements.txt</code>.</p>
@@ -137,7 +137,7 @@ export default function ApexExercisePage() {
 
                 {/* Apply timelineItem style */}
                 <div className={styles.timelineItem}>
-                    <h4><span className={styles.phaseNum}>7</span>Evaluation & Benchmarking</h4>
+                    <h4><a href="#phase7"><span className={styles.phaseNum}>7</span>Evaluation & Benchmarking</a></h4>
                     <div className="details">Focus: All | Est. Time: 4 hrs</div>
                     <p>Develop <code>evaluation.py</code>. Compare ML model performance (incl. calculating Precision/Recall/F1 against simulated truth). Compare LLM outputs (Bedrock vs. Self-hosted if applicable). Document findings.</p>
                      <p><strong>Deliverable:</strong> <code>evaluation.py/ipynb</code>, <code>evaluation_summary.md</code>.</p>
@@ -145,7 +145,7 @@ export default function ApexExercisePage() {
 
                  {/* Apply timelineItem style */}
                  <div className={styles.timelineItem}>
-                    <h4><span className={styles.phaseNum}>🏁</span>Final Deliverables & Submission</h4>
+                    <h4><a href="#deliverables"><span className={styles.phaseNum}>🏁</span>Final Deliverables & Submission</a></h4>
                     <div className="details">Focus: All</div>
                     <p>Write comprehensive final report (.md/.pdf). Ensure Git repository is complete, clean, and well-documented. Submit repository link.</p>
                  </div>
@@ -233,10 +233,17 @@ export default function ApexExercisePage() {
                         <td>All</td>
                     </tr>
                     <tr>
-                        <td><strong>Total (Phases 0-7)</strong></td>
+                        <td><a href="#deliverables">🏁</a></td>
+                        <td>Final Deliverables & Submission</td>
+                        <td>3 hours</td>
+                        <td>3 hours</td>
+                        <td>All</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total (Phases 0-🏁)</strong></td>
                         <td></td>
-                        <td><strong>~36 hours</strong></td>
-                        <td><strong>~46-56 hours</strong></td>
+                        <td><strong>~39 hours</strong></td>
+                        <td><strong>~49-59 hours</strong></td>
                         <td></td>
                     </tr>
                 </tbody>
