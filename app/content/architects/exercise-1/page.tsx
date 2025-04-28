@@ -17,7 +17,7 @@ export default function ApexExercisePage() {
 
         <section id="intro">
             <h2>1. Introduction</h2>
-            <p>Welcome! This exercise is designed to simulate a real-world AI/ML project, transforming developers into engineers capable of tackling complex data challenges end-to-end. You will work in teams to build a system that analyzes network configuration and traffic data to identify potentially risky segmentation setups using data engineering, machine learning (on AWS SageMaker), and analysis powered by Large Language Models (LLMs).</p>
+            <p>Welcome! This exercise is designed to simulate a real-world AI/ML project, transforming developers into engineers capable of tackling complex data challenges end-to-end. You will work in teams to build a system that analyzes network configuration and traffic data to identify potentially risky segmentation setups using data engineering, machine learning (on AWS SageMaker), and analysis powered by LLMs.</p>
             <p>This exercise emphasizes practical application, AWS cloud services, MLOps principles, and critical thinking through research and evaluation. We included a dedicated research phase and offers both a standard path using managed AWS services and an optional advanced path for those wishing to explore self-hosted LLMs.</p>
             <blockquote>
                 <p><em>"As I did the research for this book, I observed a pattern to my learning that reminded me of the way modern artificial neural networks learn: With each pass the algorithm makes through data, it learns more about the patterns that exist in that data. One pass may not be enough; nor ten; nor a hundred. Sometimes, neural networks learn over tens of thousands of iterations through the data."</em> - Anil Ananthaswamy, <em>Why Machines Learn</em></p>
@@ -696,6 +696,7 @@ wandb.finish()`}
                  <h3>Phase 5A: Self-Hosted LLM Setup & Analysis - Advanced Path (Focus: LLM/AI Eng) (Estimated Time: +10-20 hours EXTRA)</h3>
                  {/* Apply warning style */}
                  <div className={styles.warning}><strong>WARNING: High Complexity, Cost Risk (GPU Instances), Significant Troubleshooting Expected.</strong></div>
+                 <p>This advanced path relies heavily on the PyTorch deep learning framework. Libraries mentioned like Hugging Face's `transformers`, `accelerate`, `bitsandbytes`, and `peft` (used for quantization or fine-tuning like qLoRA) primarily use PyTorch as their backend. When you load, quantize, serve, or fine-tune models using these tools, you are inherently working with PyTorch. You might interact with PyTorch tensors or model configurations directly, especially if doing custom inference or modifications.</p>
                  <ol>
                      <li><strong>Setup GPU Environment (Choose ONE):</strong>
                          <ul>
