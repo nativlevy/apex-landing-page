@@ -166,6 +166,9 @@ hr {
 
 /* Responsive adjustments for globals */
  @media (max-width: 768px) {
+     html, body {
+         overflow-x: hidden;
+     }
      body { 
          display: block; /* Remove centering on small screens */
          font-size: 15px; /* Adjust base font size for mobile */
