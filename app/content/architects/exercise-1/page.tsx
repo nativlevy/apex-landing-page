@@ -2,6 +2,7 @@
 import React from 'react';
 import styles from './page.module.css'; // Import CSS Module
 import type { Metadata } from 'next';
+import { Logo } from '../../../../components/ui/logo'; // Correct the import path
 
 // Update Metadata for this specific page
 export const metadata: Metadata = {
@@ -13,7 +14,9 @@ export default function ApexExercisePage() {
   return (
     // Apply the container style from the CSS module
     <div className={styles.container}>
-        <h1>APEX Exercise: AI-Driven Network Segmentation Analysis</h1>
+        <Logo size="lg" className="my-4" />
+        <h1>Exercise: AI-Driven Network Segmentation Analysis</h1>
+        
 
         <section id="intro">
             <h2>1. Introduction</h2>
