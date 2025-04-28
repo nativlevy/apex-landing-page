@@ -728,7 +728,19 @@ wandb.finish()`}
                              <li>B) Ollama Server (Easier Serving): Install Ollama on GPU instance, <code>ollama pull {'<model_tag>'}</code>, run server, use <code>requests</code> library from Python script to call <code>http://localhost:11434/api/generate</code>.</li>
                          </ul>
                      </li>
-                     <li><strong>(Highly Optional) LoRA/qLoRA Fine-tuning Attempt:</strong> Requires creating a synthetic instruction dataset (NOT PROVIDED), using <code>trl SFTTrainer</code>, significant compute time. Only attempt if experienced and time permits. Document process heavily.</li>
+                     <li><strong>(Highly Optional) LoRA/qLoRA Fine-tuning Attempt:</strong>
+                          <p>This involves adapting the chosen pre-trained model to better suit the specific task using Parameter-Efficient Fine-Tuning (PEFT) techniques like LoRA or its quantized version, qLoRA.</p>
+                          <div className={styles.warning} style={{padding: '0.5em 1em', margin: '1em 0'}}> {/* Inline style for specific adjustment */}
+                              <strong>Prerequisites:</strong> Only attempt if experienced with LLM fine-tuning concepts and if significant extra time and compute resources are available. Heavy documentation is required.
+                          </div>
+                          <p><strong>Key Requirements:</strong></p>
+                          <ul>
+                              <li><strong>Synthetic Dataset Creation:</strong> You must design and create a suitable instruction-following dataset tailored to network security analysis (this dataset is NOT provided).</li>
+                              <li><strong>Training Implementation:</strong> Utilize libraries like Hugging Face's <code>trl</code> (specifically the <code>SFTTrainer</code>) for supervised fine-tuning.</li>
+                              <li><strong>Compute Resources:</strong> Requires substantial GPU time and memory.</li>
+                              <li><strong>Evaluation:</strong> Assess the impact of fine-tuning compared to the base model.</li>
+                          </ul>
+                      </li>
                      <li><strong>Process Top Anomalies:</strong> Adapt code to use chosen self-hosted inference method. Ensure correct model-specific prompt formatting. Store analysis.</li>
                      <li><strong>Deliverable (Advanced Path):</strong>
                          <ul>
