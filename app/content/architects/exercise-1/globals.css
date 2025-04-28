@@ -1,0 +1,195 @@
+/* app/globals.css */
+:root {
+    --background-color: #ffffff;
+    --text-color: #1d1d1f;
+    --primary-color: #0071e3; /* Apple blue */
+    --secondary-color: #f5f5f7; /* Light gray */
+    --border-color: #d2d2d7;
+    --code-background: #f5f5f7;
+    --code-text: #333;
+    --blockquote-border: #0071e3;
+    --link-color: #0071e3;
+    --link-hover-color: #0077ed;
+    --table-header-bg: #f5f5f7;
+    --table-border: #d2d2d7;
+    --font-family: "__Inter_Tight_Fallback_1", "__Inter_Tight_Fallback_2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* Font class name will be injected by next/font */
+}
+
+/* Apply font-family via layout.tsx className */
+body {
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    display: flex; /* Centering will be handled by the page component */
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.4em;
+    margin-top: 2em;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+     margin-top: 1.8em;
+}
+
+h4 {
+     font-size: 1.2rem;
+     font-weight: 600;
+     margin-top: 1.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+ul, ol {
+    padding-left: 2em;
+     margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+strong {
+    font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+code {
+    font-family: "SF Mono", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+    background-color: var(--code-background);
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: var(--code-text);
+}
+
+pre {
+    background-color: var(--code-background);
+    padding: 1em;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin-bottom: 1.5em;
+    border: 1px solid var(--border-color);
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+blockquote {
+    border-left: 4px solid var(--blockquote-border);
+    padding: 0.5em 1.5em;
+    margin: 1.5em 0;
+    background-color: var(--secondary-color);
+    color: #555; /* Slightly darker text for contrast */
+    font-style: italic;
+}
+
+ blockquote p {
+    margin-bottom: 0.5em;
+}
+
+ blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+    border: 1px solid var(--table-border);
+    font-size: 0.95em;
+}
+
+th, td {
+    padding: 0.8em 1em;
+    text-align: left;
+    border: 1px solid var(--table-border);
+}
+
+th {
+    background-color: var(--table-header-bg);
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: var(--secondary-color);
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 3em 0;
+}
+
+/* Responsive adjustments for globals */
+ @media (max-width: 768px) {
+     body { 
+         display: block; /* Remove centering on small screens */
+         font-size: 15px; /* Adjust base font size for mobile */
+     }
+     h1 { font-size: 1.8rem; } /* Adjusted from 2rem */
+     h2 { font-size: 1.4rem; } /* Adjusted from 1.5rem */
+     h3 { font-size: 1.15rem; } /* Adjusted from 1.2rem */
+     h4 { font-size: 1.1rem; } /* Added adjustment */
+     p { font-size: 0.95rem; line-height: 1.55; } /* Adjust paragraph size and line height */
+     table {
+         font-size: 0.9em;
+         display: block; /* Allow horizontal scrolling */
+         overflow-x: auto; /* Allow horizontal scrolling */
+         width: auto; /* Adjust width for block display */
+         max-width: 100%; /* Prevent overflow */
+         white-space: nowrap; /* Keep table content on one line for scroll */
+     }
+     th, td {
+         padding: 0.6em 0.8em;
+         white-space: normal; /* Allow text wrapping inside cells */
+     }
+     /* Ensure images don't overflow (if you add any) */
+     img {
+        max-width: 100%;
+        height: auto;
+     }
+ }

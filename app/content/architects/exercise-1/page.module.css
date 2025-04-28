@@ -1,0 +1,182 @@
+/* app/page.module.css */
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    padding: 40px 20px;
+    margin: 0 auto; /* Center the container */
+}
+
+/* Phase specific styling */
+.phase {
+   border: 1px solid var(--border-color);
+   border-radius: 8px;
+   padding: 1.5em;
+   margin-bottom: 2em;
+   background-color: #fafafa; /* Slightly different background for phases */
+}
+
+.phase h3 {
+     margin-top: 0;
+     color: var(--primary-color);
+}
+
+.decisionPoint { /* Renamed from decision-point */
+    background-color: #fff3cd; /* Light yellow */
+    border: 1px solid #ffeeba;
+    color: #856404;
+    padding: 1em 1.5em;
+    border-radius: 6px;
+    margin: 2em 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.warning {
+     background-color: #f8d7da; /* Light red */
+     border: 1px solid #f5c6cb;
+     color: #721c24;
+     padding: 0.5em 1em; /* Reduced vertical padding */
+     border-radius: 6px;
+     margin: 1.5em 0;
+}
+ .warning strong { color: inherit; }
+
+ /* Responsive adjustments specific to container */
+ @media (max-width: 768px) {
+     .container { padding: 20px 15px; }
+ }
+
+ /* START: Project Steps Visualization CSS */
+.projectTimeline { /* Renamed from project-timeline */
+    margin-top: 2.5em;
+    padding-left: 15px;
+    position: relative;
+}
+
+.timelineItem { /* Renamed */
+    margin-bottom: 30px;
+    position: relative;
+    padding: 15px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    margin-left: 0;
+}
+
+/* Removed ::before styles as they were commented out or hidden */
+
+.timelineItem h4 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.timelineItem h4 span.phaseNum { /* Renamed */
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+.timelineItem p {
+    margin-bottom: 0.5em;
+    font-size: 0.95em;
+}
+.timelineItem p:last-child {
+    margin-bottom: 0;
+}
+
+.timelineItem .details { /* Direct descendant classes are fine */
+    font-size: 0.85em;
+    color: #555;
+    margin-bottom: 0.8em;
+}
+
+.timelineDecision { /* Renamed */
+    margin-bottom: 30px;
+    position: relative;
+    padding: 15px;
+    background-color: #fff3cd; /* Light yellow from decision-point */
+    border: 1px solid #ffeeba;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 0;
+}
+
+/* Removed ::before styles */
+
+.timelinePaths { /* Renamed */
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    padding-left: 0;
+    margin-left: 0;
+    position: relative;
+}
+
+/* Removed ::before styles */
+
+.timelinePath { /* Renamed */
+    flex: 1;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f8f9fa; /* Lighter than phase background */
+    position: relative;
+    margin-left: 0;
+}
+
+/* Removed ::before styles */
+
+.timelinePath h5 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.timelineConvergence { /* Renamed */
+    margin-top: 30px;
+    position: relative;
+}
+
+/* Removed ::before styles */
+
+
+/* Small screen adjustments for timeline */
+@media (max-width: 600px) {
+    .projectTimeline {
+        padding-left: 10px;
+    }
+    /* Removed ::before styles */
+
+    .timelineItem h4 {
+        font-size: 1.05rem; /* Slightly smaller heading in timeline items */
+    }
+    .timelineItem p {
+        font-size: 0.9rem; /* Slightly smaller text in timeline items */
+    }
+    .timelineItem .details {
+        font-size: 0.8rem; /* Smaller details text */
+    }
+    .timelinePath h5 {
+        font-size: 0.95rem; /* Smaller path heading */
+    }
+
+    .timelinePaths {
+        flex-direction: column; /* Stack paths vertically */
+        margin-left: 0;
+        padding-left: 0;
+    }
+     .timelinePath {
+        margin-left: 0;
+    }
+    /* Removed ::before styles */
+}
+
+/* END: Project Steps Visualization CSS */
