@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import { Inter_Tight } from "next/font/google"; // Import the font
 import "./globals.css"; // Import global styles
+import { Logo } from '../../components/ui/logo'; // Import the Logo component
 
 // Configure the font
 const interTight = Inter_Tight({
@@ -26,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* Apply the font className to the body */}
-      <body className={interTight.className}>
+      <body className={`${interTight.className} relative`}>
         {children}
       </body>
     </html>

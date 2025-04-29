@@ -2,7 +2,7 @@
 import React from 'react';
 import styles from './page.module.css'; // Import CSS Module
 import type { Metadata } from 'next';
-import { Logo } from '../../../../components/ui/logo'; // Correct the import path
+import { Logo } from '@/components/ui/logo';
 
 // Update Metadata for this specific page
 export const metadata: Metadata = {
@@ -43,7 +43,7 @@ export default function ApexExercisePage() {
                 <li><strong>LLM Integration:</strong>
                     <ul>
                         <li>(Standard Path) Interact effectively with managed LLM APIs (AWS Bedrock), including prompt engineering for analytical tasks.</li>
-                        <li>(Advanced Path) Understand the concepts and challenges of loading, quantizing, serving, and interacting with self-hosted open-source LLMs on AWS infrastructure (SageMaker/EC2). Conceptualize LoRA/qLoRA fine-tuning.</li>
+                        <li>(Advanced Path) Understand the concepts and challenges of loading, quantizing, serving, and interacting with self-hosted open-source LLMs on AWS infrastructure (SageMaker/EC2). Conceptualize <a href="/content/guides/LoRA">LoRA/qLoRA</a> fine-tuning.</li>
                     </ul>
                 </li>
                 <li><strong>Cloud Infrastructure (AWS):</strong> Utilize core AWS services pragmatically: S3 (storage), SageMaker (notebooks, training jobs - optional), Bedrock (managed LLMs - standard), IAM (permissions), CloudWatch (logging), EC2 (GPU instances - advanced). Manage resources and understand cost implications.</li>
@@ -659,7 +659,9 @@ wandb.finish()`}
                      </li>
                      <li><strong>Train & Analyze (SageMaker Notebook Recommended Start):</strong>
                          <ul>
-                             <li>Load features. Train models. Analyze score distributions.</li>
+                             <li>Load features. Train models.</li>
+                             <li>Visualize the score distributions for each model (e.g., using histograms via matplotlib/seaborn or wandb.Histogram). Document key observations about the shape, spread, and potential cut-off points for anomalies.</li>
+                             <li>Based on the visualized distributions, identify and document potential thresholds for classifying anomalies for each model. Briefly discuss the trade-offs (e.g., catching more anomalies vs. more false alarms) associated with different threshold levels.</li>
                              <li>(Optional MLOps): Refactor into <code>train.py</code> for SageMaker Script Mode training jobs.</li>
                          </ul>
                      </li>
@@ -668,6 +670,8 @@ wandb.finish()`}
                          <ul>
                              <li><code>ml_modeling.ipynb</code> / <code>train.py</code>.</li>
                              <li>ML results on S3.</li>
+                             <li>Generated plots of score distributions.</li>
+                             <li>Notes/markdown section discussing potential thresholds and their trade-offs.</li>
                              <li>Link to W&B project (if used).</li>
                              <li>Commit to Git.</li>
                          </ul>
@@ -783,17 +787,18 @@ wandb.finish()`}
             {/* Apply phase style */}
             <div className={styles.phase} id="phase7">
                  <h3>Phase 7: Evaluation & Benchmarking (Focus: All) (Estimated Time: 4 hours)</h3>
+                 <p>Recall from Chapter 4 the importance of evaluation pipelines. This phase involves creating yours, starting with comparing the ML models based on their anomaly scores and your defined criteria.</p>
                  <ol>
                      <li><strong>Student-Written Evaluation Code (<code>evaluation.py</code> / <code>evaluation.ipynb</code>):</strong>
                          <ul>
                              <li><strong>Requirement:</strong> Write code to load ML & LLM results and automate comparisons.</li>
-                             <li>Load results for {'>='}2 ML models. Generate comparative plots (e.g., score histograms). Calculate metrics (e.g., Silhouette).
+                             <li>Load results for {'>='}2 ML models. Generate comparative plots (e.g., score histograms). Calculate clustering metrics (e.g., Silhouette score, if applicable based on your chosen models like KMeans, to assess cluster separation) alongside anomaly classification metrics.
                                  <blockquote><strong>Metrics (ML Evaluation):</strong> Quantitative measures used to assess the performance and effectiveness of a machine learning model. The choice of metrics depends on the specific task (e.g., clustering, classification, regression). Examples include Silhouette Score (for clustering) or Precision/Recall (for classification).</blockquote>
                              </li>
                               <li>Load LLM analysis results.</li>
-                              <li><strong>ML Models:</strong> MANDATORY comparison using evaluation code outputs and qualitative review. Justify which model performed better for this task, referencing Phase 2 research.
+                              <li><strong>ML Models:</strong> MANDATORY comparison using evaluation code outputs and qualitative review. Justify which ML model performed better overall for this task, considering not only the P/R/F1 scores but also the characteristics of its score distribution and the appropriateness of the chosen threshold, referencing Phase 2 research.
                                  <ul>
-                                      <li><strong>Requirement:</strong> Although this is unsupervised learning, if you define a threshold to classify instances as "anomalous" vs. "normal" (even if based on score percentiles), you <strong>must</strong> calculate and report <strong>Precision, Recall, and F1-Score</strong> against a <em>hypothetical</em> or <em>simulated</em> ground truth (or justify why these are not applicable/how you are evaluating classification performance otherwise).
+                                      <li><strong>Requirement:</strong> Although this is unsupervised learning, if you define a threshold to classify instances as "anomalous" vs. "normal" (even if based on score percentiles), you <strong>must</strong> explicitly state the chosen threshold for each ML model being evaluated and calculate and report <strong>Precision, Recall, and F1-Score</strong> against a <em>hypothetical</em> or <em>simulated</em> ground truth (or justify why these are not applicable/how you are evaluating classification performance otherwise).<sup>*</sup> Crucially, justify your chosen threshold(s) by referencing the score distribution analysis performed in Phase 4. Explain why this threshold was deemed appropriate for the simulated ground truth evaluation.
                                          <blockquote><strong>Ground Truth:</strong> The factual, correct labels or values for the data against which model predictions are compared for evaluation. In unsupervised learning, ground truth is often unavailable, so it might be simulated or based on expert labels for a subset of data if evaluating pseudo-classification performance.</blockquote>
                                           <ul>
                                               <li><strong>Precision:</strong> Of all instances flagged as anomalous, what fraction *actually are* anomalous? (TP / (TP + FP)) - Measures the accuracy of positive predictions. High precision means fewer false alarms.</li>
@@ -814,11 +819,12 @@ wandb.finish()`}
                       <li><strong>Deliverable:</strong>
                          <ul>
                              <li><code>evaluation.py</code> script or <code>evaluation.ipynb</code> notebook.</li>
-                             <li><code>evaluation_summary.md</code> detailing benchmark setup, results (include generated plots/tables, <strong>Precision/Recall/F1 scores for ML models with justification</strong>), rubric scoring methodology/results, LLM-as-judge findings (if done), and qualitative comparisons/conclusions.</li>
+                             <li><code>evaluation_summary.md</code> detailing benchmark setup, results (include generated plots/tables), a dedicated subsection titled 'ML Model Threshold Selection and Justification' detailing the chosen thresholds and the rationale based on Phase 4's distribution analysis, alongside the calculated Precision/Recall/F1 scores, rubric scoring methodology/results, LLM-as-judge findings (if done), and qualitative comparisons/conclusions.</li>
                              <li>Commit code and summary to Git.</li>
                          </ul>
                      </li>
                  </ol>
+                 <p><small><sup>*</sup>For this exercise, 'simulated ground truth' could involve, for example, defining the bottom X% of scores from one model as 'true anomalies' and evaluating how well other models (or the same model with different parameters) identify these using their respective thresholds.</small></p>
              </div>
          </section>
 

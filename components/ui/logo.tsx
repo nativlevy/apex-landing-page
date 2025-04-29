@@ -5,14 +5,12 @@ interface LogoProps {
   size?: "sm" | "md" | "lg";
   showText?: boolean;
   className?: string;
-  linkClassName?: string;
 }
 
 export function Logo({ 
   size = "md", 
   showText = true,
-  className = "",
-  linkClassName = ""
+  className = ""
 }: LogoProps) {
   const logoSizes = {
     sm: { width: 20, height: 20, className: "h-5 w-5" },
@@ -23,13 +21,13 @@ export function Logo({
   const { width, height, className: sizeClassName } = logoSizes[size];
   
   return (
-    <Link href="/" className={`flex items-center space-x-2 ${linkClassName}`}>
+    <Link href="/" className={`flex items-center space-x-2 ${className}`}>
       <Image 
         src="/logo.png" 
         alt="APEX Logo" 
         width={width} 
         height={height} 
-        className={`${sizeClassName} object-contain ${className}`}
+        className={`${sizeClassName} object-contain`}
       />
       {showText && <span className={`font-bold font-['Poppins'] tracking-wide ${size === "lg" ? "text-3xl" : size === "md" ? "text-2xl" : "text-base"}`}>APEX</span>}
     </Link>
