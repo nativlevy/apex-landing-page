@@ -477,7 +477,7 @@ export default function ApexExercisePage() {
          <section id="tech-stack">
              <h2>7. Technology Stack Summary</h2>
              <ul>
-                 <li><strong>Core:</strong> Python 3.9+, Pandas, NumPy, Scikit-learn, Git/GitHub, AWS CLI, <code>boto3</code></li>
+                 <li><strong>Core:</strong> Python, Pandas, NumPy, Scikit-learn, Git/GitHub, AWS CLI, <code>boto3</code></li>
                  <li><strong>AWS Services:</strong> S3, SageMaker (Notebook Instances), IAM, CloudWatch (Logs), Bedrock (Standard Path), EC2 (Optional, Advanced Path GPU Instances)
                      <blockquote><strong>AWS SageMaker:</strong> AWS's managed platform for the end-to-end ML lifecycle, providing tools for data labeling, building, training, tuning, deploying, and managing ML models. Includes hosted Jupyter notebooks.</blockquote>
                  </li>
@@ -516,7 +516,7 @@ export default function ApexExercisePage() {
                     </li>
                     <li><strong>Local Development Environment:</strong>
                         <ul>
-                            <li>Install Python 3.13+. Create/activate a virtual environment.</li>
+                            <li>Install Python. Create/activate a virtual environment.</li>
                             <li>Install core libraries:
                                 {/* Use standard pre/code blocks */}
                                 <pre><code className="language-bash">pip install boto3 pandas numpy scikit-learn sagemaker "sentence-transformers{'>='}2.2.0" jupyterlab matplotlib seaborn ipaddress pyarrow wandb</code></pre>
