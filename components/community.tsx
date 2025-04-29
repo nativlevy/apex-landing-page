@@ -391,29 +391,6 @@ export function Community() {
             </CardFooter>
           </Card>
 
-          {/* Yael Daihes */}
-          <Card className="overflow-hidden flex flex-col h-full">
-            <div className="aspect-square relative">
-              <Image
-                src="/team/yael.jpeg"
-                alt="Yael Daihes"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <CardHeader className="p-4">
-              <CardTitle className="text-lg">Yael Daihes</CardTitle>
-              <CardDescription>Head of AI at Anecdotes</CardDescription>
-            </CardHeader>
-            <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
-                <Link href="https://www.linkedin.com/in/yael-daihes/" target="_blank" rel="noopener noreferrer">
-                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
-                    <Linkedin className="h-5 w-5" />
-                  </Button>
-                </Link>
-            </CardFooter>
-          </Card>
-
           {/* Or Lenchner */}
           <Card className="overflow-hidden flex flex-col h-full">
             <div className="aspect-square relative">
