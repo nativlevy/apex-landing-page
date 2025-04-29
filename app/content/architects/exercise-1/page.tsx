@@ -46,7 +46,7 @@ export default function ApexExercisePage() {
                         <li>(Advanced Path) Understand the concepts and challenges of loading, quantizing, serving, and interacting with self-hosted open-source LLMs on AWS infrastructure (SageMaker/EC2). Conceptualize <a href="/content/guides/LoRA">LoRA/qLoRA</a> fine-tuning.</li>
                     </ul>
                 </li>
-                <li><strong>Cloud Infrastructure (AWS):</strong> Utilize core AWS services pragmatically: S3 (storage), SageMaker (notebooks, training jobs - optional), Bedrock (managed LLMs - standard), IAM (permissions), CloudWatch (logging), EC2 (GPU instances - advanced). Manage resources and understand cost implications.</li>
+                <li><strong>Cloud Infrastructure (AWS):</strong> Utilize core AWS services pragmatically: S3 (storage), SageMaker (notebooks, training jobs - optional), Bedrock (managed LLMs), IAM (permissions), CloudWatch (logging), EC2 (GPU instances - advanced). Manage resources and understand cost implications.</li>
                 <li><strong>Pipeline Development (MLOps):</strong> Build a reproducible end-to-end Python pipeline script using <code>boto3</code> to orchestrate data processing, ML inference, and LLM analysis. Implement basic parameterization and logging.
                     <blockquote><strong>Pipeline / Orchestration:</strong> Automating the sequence of steps in an ML workflow (e.g., data loading, processing, training, evaluation) into a single, executable process.</blockquote>
                     <blockquote><strong>Inference:</strong> Using a trained ML model to make predictions or classifications on new, unseen data.</blockquote>
@@ -58,7 +58,7 @@ export default function ApexExercisePage() {
 
         {/* Apply projectTimeline style */}
         <section id="project-visualization">
-            <h2>Project Workflow Visualization</h2>
+            <h2>Project Workflow</h2>
             <p>This timeline provides a visual overview of the project phases, key activities, and the decision point between the Standard and Advanced paths.</p>
 
             {/* Apply projectTimeline style */}
