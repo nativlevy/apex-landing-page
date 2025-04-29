@@ -92,7 +92,7 @@ export default function ApexExercisePage() {
                 <div className={styles.timelineItem}>
                      <h4><a href="#phase3"><span className={styles.phaseNum}>3</span>Feature Engineering & Embeddings</a></h4>
                      <div className="details">Focus: ML Eng | Est. Time: 5 hrs</div>
-                     <p>Implement features based on research. Generate text embeddings (e.g., for segment purpose). Assemble and scale the final feature set.</p>
+                     <p>Implement features based on research. Generate text embeddings. Assemble and scale the final feature set.</p>
                      <p><strong>Deliverable:</strong> Feature dataset (Parquet), <code>feature_engineering.ipynb/script</code>.</p>
                  </div>
 
@@ -121,7 +121,7 @@ export default function ApexExercisePage() {
                         <div className={styles.timelinePath}>
                              <h5><a href="#phase5a"><span className={styles.phaseNum}>5A</span> Advanced Path: Self-Hosted</a></h5>
                              <div className="details">Focus: LLM/AI Eng | Est. Time: +10-20 hrs</div>
-                             <p>Set up GPU environment (SageMaker/EC2). Select, load (optional: quantize), and serve an open-source LLM (e.g., Llama 3 8B). Analyze anomalies. High complexity & cost risk.</p>
+                             <p>Set up GPU environment (SageMaker/EC2). Select, load (optional: quantize), and serve an open-source LLM (e.g., Llama 3 8B). Analyze anomalies.</p>
                              <p><strong>Deliverable:</strong> <code>self_hosted_llm.py</code>, results JSON, <code>README_Advanced.md</code>.</p>
                         </div>
                     </div>
