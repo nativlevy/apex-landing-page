@@ -712,6 +712,7 @@ wandb.finish()`}
                  {/* Apply warning style */}
                  <div className={styles.warning}><strong>WARNING: High Complexity, Cost Risk (GPU Instances), Significant Troubleshooting Expected.</strong></div>
                  <p>This advanced path relies heavily on the PyTorch deep learning framework. Libraries mentioned like Hugging Face's `transformers`, `accelerate`, `bitsandbytes`, and `peft` (used for quantization or fine-tuning like qLoRA) primarily use PyTorch as their backend. When you load, quantize, serve, or fine-tune models using these tools, you are inherently working with PyTorch. You might interact with PyTorch tensors or model configurations directly, especially if doing custom inference or modifications.</p>
+                 <p><strong>Important Note on GPU Memory Constraints:</strong> Models like Llama-3 8B require significant VRAM (e.g., ~16GB in FP16 format). Smaller GPU instances such as `ml.g4dn.xlarge` (16GB VRAM) may not accommodate these models without quantization. To ensure compatibility, we strongly recommend using quantization (e.g., 4-bit) to reduce memory requirements or testing with smaller models (e.g., 7B parameter variants like Mistral 7B Instruct) if memory issues arise. Minimum GPU memory requirement for an 8B model with quantization is approximately 12-14GB VRAM; for non-quantized models, aim for instances with at least 24GB VRAM (e.g., `ml.g5.2xlarge` or higher). Monitor memory usage during loading and inference to avoid out-of-memory errors.</p>
                  <ol>
                      <li><strong>Setup GPU Environment (Choose ONE):</strong>
                          <ul>
@@ -720,11 +721,11 @@ wandb.finish()`}
                              <li>Install Advanced Path libraries (Transformers, <code>bitsandbytes</code>, etc., ensuring CUDA compatibility).</li>
                          </ul>
                      </li>
-                     <li><strong>Model Selection:</strong> Choose small/medium open-source instruction-tuned model (e.g., Llama-3 8B Instruct, Mistral 7B Instruct).</li>
+                     <li><strong>Model Selection:</strong> Choose small/medium open-source instruction-tuned model (e.g., Llama-3 8B Instruct, Mistral 7B Instruct). Consider smaller models if GPU memory is limited.</li>
                      <li><strong>Loading Strategy (Choose ONE, implement in script):</strong>
                          <ul>
-                             <li>A) Standard Load (FP16/BF16): Use <code>transformers AutoModelForCausalLM.from_pretrained(..., torch_dtype=..., device_map="auto")</code>.</li>
-                             <li>B) Quantized Load (4-bit Recommended): Use <code>transformers</code> with <code>BitsAndBytesConfig(load_in_4bit=True, ...)</code> and <code>device_map="auto"</code>. Explain concept of quantization (precision reduction for efficiency) vs. trade-off (minor accuracy loss) in notes.</li>
+                             <li>A) Standard Load (FP16/BF16): Use <code>transformers AutoModelForCausalLM.from_pretrained(..., torch_dtype=..., device_map="auto")</code>. Note that this requires higher VRAM (e.g., 16GB+ for 8B models).</li>
+                             <li>B) Quantized Load (4-bit Recommended): Use <code>transformers</code> with <code>BitsAndBytesConfig(load_in_4bit=True, ...)</code> and <code>device_map="auto"</code>. Explain concept of quantization (precision reduction for efficiency) vs. trade-off (minor accuracy loss) in notes. This is strongly recommended for instances with 16GB or less VRAM.</li>
                          </ul>
                      </li>
                       <li><strong>Inference/Serving Strategy (Choose ONE):</strong>
