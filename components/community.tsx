@@ -27,7 +27,7 @@ export function Community() {
             </div>
             <CardHeader className="p-4">
               <CardTitle className="text-lg">Tal Fialkow</CardTitle>
-              <CardDescription>VP Cyber AI</CardDescription>
+              <CardDescription>VP Cyber AI at Dream</CardDescription>
             </CardHeader>
             <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
               <Link href="https://www.linkedin.com/in/tal-fialkow-486b8455/" target="_blank" rel="noopener noreferrer">
