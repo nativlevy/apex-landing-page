@@ -114,7 +114,7 @@ export default function ApexExercisePage() {
                         <div className={styles.timelinePath}>
                             <h5><a href="#phase5s"><span className={styles.phaseNum}>5S</span> Standard Path: Bedrock</a></h5>
                              <div className="details">Focus: LLM/AI Eng | Est. Time: 5 hrs</div>
-                             <p>Integrate with AWS Bedrock API. Develop prompts. Analyze top anomalies using chosen Bedrock model (e.g., Claude Haiku). Save LLM analysis.</p>
+                             <p>Integrate with AWS Bedrock API. Develop prompts. Analyze top anomalies using chosen Bedrock model. Save LLM analysis.</p>
                              <p><strong>Deliverable:</strong> <code>llm_analysis_bedrock.py</code>, results JSON.</p>
                         </div>
                         {/* Apply timelinePath style */}
