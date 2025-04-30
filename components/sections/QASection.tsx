@@ -77,8 +77,8 @@ export function QASection() {
               </AccordionTrigger>
               <AccordionContent className="pt-2">
                  <p className="text-muted-foreground text-base">
-                   No. But you need to give back so once accepted to APEX, donate $250 to any social cause of your choice—just confirm the donation and send us a screenshot.
-                   If you can't afford it, please write us.
+                   There's a commitment fee required upon acceptance. As a social initiative for Israel, the program's costs are largely covered by our generous partners, allowing us to keep this fee minimal.
+                   This fee reflects your commitment to the program and its mission. If the fee poses a challenge, please reach out to us.
                  </p>
               </AccordionContent>
             </AccordionItem>

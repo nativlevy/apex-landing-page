@@ -19,13 +19,16 @@ export function PricingSection() {
           <Card className="flex flex-col">
             <CardHeader>
               <CardTitle>For Participants</CardTitle>
-              <CardDescription>Join our elite program</CardDescription>
+              <CardDescription>Join our elite program - a social initiative for Israel</CardDescription>
             </CardHeader>
             <CardContent className="flex-1">
               <div className="flex items-baseline gap-1 mb-4">
-                <span className="text-4xl font-bold">$250</span>
-                <span className="text-muted-foreground">program fee</span>
+                <span className="text-4xl font-bold">Commitment Fee</span>
+                {/* <span className="text-muted-foreground">program fee</span> */}
               </div>
+              <p className="text-sm text-muted-foreground mb-4">
+                Supported by our partners to keep your contribution minimal.
+              </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
