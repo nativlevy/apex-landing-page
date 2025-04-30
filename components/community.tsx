@@ -184,6 +184,29 @@ export function Community() {
             <p className="text-muted-foreground md:text-xl mt-2">Our valued community members contributing to APEX's mission.</p>
         </div>
         <div className="grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          {/* Assaf Elovic */}
+          <Card className="overflow-hidden flex flex-col h-full">
+            <div className="aspect-square relative">
+              <Image
+                src="/team/assaf_elovic.jpeg"
+                alt="Assaf Elovic"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <CardHeader className="p-4">
+              <CardTitle className="text-lg">Assaf Elovic</CardTitle>
+              <CardDescription>Director, Head of AI at monday.com</CardDescription>
+            </CardHeader>
+            <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
+                <Link href="https://www.linkedin.com/in/assafe/" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5" />
+                  </Button>
+                </Link>
+            </CardFooter>
+          </Card>
+
           {/* Gadi */}
           <Card className="overflow-hidden flex flex-col h-full">
             <div className="aspect-square relative">
