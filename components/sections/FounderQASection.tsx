@@ -48,7 +48,7 @@ export function FounderQASection() {
                 No! We're excited to work with folks from very early on in their journey.
               </p>
               <p className="text-muted-foreground text-base">
-                If you're a solo founder or actively looking for a cofounder, fill out the Apex application and check the box for looking for a cofounder or email us at <a href="mailto:embed@apex.org" className="text-primary hover:underline">embed@apex.org</a>. We'll be actively helping match participants from our network and our architect-tech track.
+                If you're a solo founder or actively looking for a cofounder, fill out the Apex application and check the box for looking for a cofounder. We'll be actively helping match participants from our network and our architect-tech track.
               </p>
             </AccordionContent>
           </AccordionItem>
