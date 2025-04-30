@@ -8,7 +8,7 @@ const featureCards = [
   {
     title: "Dual-Track Growth Engine",
     icon: Users,
-    description: "We identify and recruit Israel's top technologists, channeling them into focused tracks."
+    description: "We identify Israel's top technologists, channeling them into focused tracks."
   },
   {
     title: "Economic Impact",

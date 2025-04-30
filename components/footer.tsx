@@ -31,10 +31,21 @@ export default function Footer() {
             <h3 className="font-medium">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/team" className="text-sm text-muted-foreground hover:text-foreground">
-                  Our Team
+                <Link href="/#about" className="text-sm text-muted-foreground hover:text-foreground">
+                  About
                 </Link>
               </li>
+              <li>
+                <Link href="/#features" className="text-sm text-muted-foreground hover:text-foreground">
+                  Model
+                </Link>
+              </li>
+              <li>
+                <Link href="/community" className="text-sm text-muted-foreground hover:text-foreground">
+                  Community
+                </Link>
+              </li>
+              
             </ul>
           </div>
           <div className="space-y-4">
