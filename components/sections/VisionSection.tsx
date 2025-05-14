@@ -22,7 +22,7 @@ export function VisionSection() {
             Our Vision: The Flipped Pyramid
           </h2>
           <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground leading-relaxed font-light">
-            APEX empowers Israel's top tech talent to lead the AI era-founding companies, accelerating innovation, and unlocking the next wave of builders. By <span className="font-semibold text-foreground">flipping the pyramid</span>, we use elite talent to lift the entire ecosystem, drive inclusive growth, and secure Israel's AI edge.
+            APEX empowers Israel's elite tech talent to spearhead the AI revolution. By <span className="font-semibold text-foreground">flipping the pyramid</span>, we use top talent to lift the entire ecosystem and drive inclusive growth, securing Israel's AI dominance.
           </p>
           <p className="text-2xl md:text-3xl lg:text-4xl font-bold mt-8 text-foreground">
             5 Years. 500 Founders. 500 AI-Native Architects.
