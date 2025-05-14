@@ -70,8 +70,7 @@ export function AIRankingSection() {
         <div className="max-w-3xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-4">Why This Matters</h3>
           <p className="mb-6 text-muted-foreground">
-            Israel's slide from 5th to 9th place in the Global AI Index is a critical indicator that our AI leadership is at risk. 
-            Without immediate intervention, we stand to lose our competitive edge in one of the most transformative technologies of our era.
+            Israel's drop from 5th to 9th in the Global AI Index signals a risk to our AI leadership. Urgent action is needed to maintain our competitive edge in this transformative technology.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">

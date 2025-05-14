@@ -103,13 +103,6 @@ export function PartnersSection() {
             className="object-contain h-12 w-auto mx-auto"
           />
           <Image
-            src="https://cdn.brandfetch.io/snowflake.com/w/400/h/400"
-            alt="Snowflake"
-            width={120}
-            height={60}
-            className="object-contain h-12 w-auto mx-auto"
-          />
-          <Image
             src="https://cdn.brandfetch.io/ai.work//w/400/h/400"
             alt="Aiwork"
             width={120}
@@ -147,13 +140,6 @@ export function PartnersSection() {
           <Image
             src="https://cdn.brandfetch.io/anecdotes.ai/w/400/h/400"
             alt="Anecdotes AI"
-            width={120}
-            height={60}
-            className="object-contain h-12 w-auto mx-auto"
-          />
-          <Image
-            src="https://cdn.brandfetch.io/d-id.com/w/400/h/400"
-            alt="d-ID"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
@@ -221,7 +207,7 @@ export function PartnersSection() {
             height={60}
             className="object-contain h-12 w-auto mx-auto"
           />
-          <Image
+          {/* <Image
             src="https://cdn.brandfetch.io/jpmorgan.com/w/400/h/400"
             alt="JP Morgan"
             width={120}
@@ -234,7 +220,7 @@ export function PartnersSection() {
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
-          />
+          /> */}
           <Image
             src="https://cdn.brandfetch.io/lsports.eu/w/400/h/400"
             alt="Cyber.ai"
@@ -259,13 +245,6 @@ export function PartnersSection() {
           <Image
             src="https://cdn.brandfetch.io/wiz.io/w/400/h/400"
             alt="Wiz"
-            width={120}
-            height={60}
-            className="object-contain h-12 w-auto mx-auto"
-          />
-          <Image
-            src="https://cdn.brandfetch.io/eon.io/w/400/h/400"
-            alt="Eon.io"
             width={120}
             height={60}
             className="object-contain h-12 w-auto mx-auto"
