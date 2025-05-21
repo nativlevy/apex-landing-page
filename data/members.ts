@@ -37,7 +37,8 @@ export const communityMembers: Member[] = [
   { id: "alon", name: "Alon Kejzman", description: "Building", imageSrc: "/team/alon.jpg", linkedinUrl: "https://www.linkedin.com/in/alon-kejzman/", isFounder: true },
   { id: "matan", name: "Matan Cohen", description: "ex-8200 | ex-81", imageSrc: "/team/matan.webp", linkedinUrl: "https://www.linkedin.com/in/matan-cohen-547686b9/" },
   { id: "shachar", name: "Shachar Cohen", description: "4M, Talpiot", imageSrc: "/team/shachar.webp", linkedinUrl: "https://www.linkedin.com/in/shachar-cohen-480b86205/" },
-  
+  { id: "avior", name: "Avior Barouch", description: "Security Research Director at Paragon", imageSrc: "/team/avior.png", linkedinUrl: "https://www.linkedin.com/in/avior-b-793b21203/" },
+  { id: "benny", name: "Benny Meir", description: "DevOps Ninja", imageSrc: "/team/benny_meir.png", linkedinUrl: "" },
 ];
 
 export const allMembers: Member[] = [...foundingTeamMembers, ...communityMembers]; 
