@@ -44,7 +44,7 @@ export function Community() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Founding Team</h2>
           <p className="text-muted-foreground md:text-xl mt-2">The core team leading APEX.</p>
         </div>
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-4 mb-16">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-6 mb-16">
           {foundingTeamMembers.map((member) => (
             <MemberCard key={member.id} member={member} />
           ))}
