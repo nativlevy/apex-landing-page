@@ -19,6 +19,7 @@ export const foundingTeamMembers: Member[] = [
 
 export const communityMembers: Member[] = [
   { id: "assaf_e", name: "Assaf Elovic", description: "Director, Head of AI at monday.com", imageSrc: "/team/assaf_elovic.jpeg", linkedinUrl: "https://www.linkedin.com/in/assafe/" },
+  { id: "shlomi", name: "Shlomi Boutnaru, Ph.D.", description: "Entrepreneur", imageSrc: "/team/shlomi.jpeg", linkedinUrl: "https://www.linkedin.com/in/shlomi-boutnaru-ph-d-ba781811a/" },
   { id: "gadi", name: "Gadi Lifshitz", description: "Ex Director Meta, Ex CTO at Sygnia", imageSrc: "/team/gadi.jpeg", linkedinUrl: "https://www.linkedin.com/in/lgadi/" },
   
   // { id: "asaf_t", name: "Asaf Tzur", description: "ex-McKinsey | Founding Partner at Demo Capital", imageSrc: "/team/asaf_tzur.jpeg", linkedinUrl: "https://www.linkedin.com/in/tzurasaf/" },
