@@ -16,7 +16,7 @@ export function VisionSection() {
         > */}
         <div className="flex flex-col items-center justify-center space-y-6 text-center max-w-5xl mx-auto">
           <div className="p-4 rounded-full bg-primary/10 inline-flex">
-            <Pyramid className="h-8 w-8 text-primary" />
+            <Pyramid className="h-8 w-8 text-primary" style={{ transform: "rotate(180deg)" }} />
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
             Our Vision: The Flipped Pyramid
