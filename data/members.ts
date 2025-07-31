@@ -17,6 +17,7 @@ export const foundingTeamMembers: Member[] = [
 ];
 
 export const communityMembers: Member[] = [
+  { id: "almog", name: "Almog Baku", description: "GenAI Community Founder", imageSrc: "/team/almog_baku.png", linkedinUrl: "https://www.linkedin.com/in/almogbaku/" },
   { id: "talya", name: "Talya Pines", description: "MBA intern @ Chicago Booth", imageSrc: "/team/talya.jpeg", linkedinUrl: "https://www.linkedin.com/in/talya-pines/" },
   { id: "assaf_e", name: "Assaf Elovic", description: "Director, Head of AI at monday.com", imageSrc: "/team/assaf_elovic.jpeg", linkedinUrl: "https://www.linkedin.com/in/assafe/" },
   { id: "gal", name: "Gal Peretz", description: "Head of AI @ Carbyne | Co-Host @ LangTalks podcast", imageSrc: "/team/gal_perez.png", linkedinUrl: "https://www.linkedin.com/in/gal-peretz/" },
@@ -32,10 +33,7 @@ export const communityMembers: Member[] = [
   { id: "yonatan_a", name: "Yonatan Amir", description: "Founder & President at Diagnostic Robotics", imageSrc: "/team/yonatan_amir.jpeg", linkedinUrl: "https://www.linkedin.com/in/yonatan-amir/" },
   { id: "elad", name: "Elad Levi", description: "CTO at Plurai, PhD", imageSrc: "/team/elad_levi.jpeg", linkedinUrl: "https://www.linkedin.com/in/elad-levi-a938a3121/" },
   { id: "ilan", name: "Ilan Kadar", description: "CEO at Plurai, PhD", imageSrc: "/team/ilan_kader.jpeg", linkedinUrl: "https://www.linkedin.com/in/ilan-kadar-b57ba511b/" },
-  { id: "or_l", name: "Or Lenchner", description: "CEO at Brightdata", imageSrc: "/team/or_lenchner.jpeg", linkedinUrl: "https://www.linkedin.com/in/orlenchner/" },
-  { id: "ori_oz", name: "Ori Avraham", description: "Building", imageSrc: "/team/Ori_A_oz.webp", linkedinUrl: "#" },
-  { id: "ori_a", name: "Ori Ashur", description: "Building", imageSrc: "/team/ori_a.webp", linkedinUrl: "#" },
-  { id: "alon", name: "Alon Kejzman", description: "Building", imageSrc: "/team/alon.jpg", linkedinUrl: "https://www.linkedin.com/in/alon-kejzman/", isFounder: true },
+
   { id: "shachar", name: "Shachar Cohen", description: "4M, Talpiot", imageSrc: "/team/shachar.webp", linkedinUrl: "https://www.linkedin.com/in/shachar-cohen-480b86205/" },
   { id: "avior", name: "Avior Barouch", description: "Security Research Director at Paragon", imageSrc: "/team/avior.png", linkedinUrl: "https://www.linkedin.com/in/avior-b-793b21203/" },
   { id: "benny", name: "Benny Meir", description: "DevOps Ninja", imageSrc: "/team/benny_meir.png", linkedinUrl: "" },
