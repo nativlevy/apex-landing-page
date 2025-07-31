@@ -2,14 +2,9 @@ import type React from "react"
 import "@/app/globals.css"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
-import { StagewiseToolbar } from '@stagewise/toolbar-next'
 import { cn } from "@/lib/utils"
 
 const inter = Inter({ subsets: ["latin"] })
-
-const stagewiseConfig = {
-  plugins: []
-};
 
 export const metadata = {
   title: "APEX - Building Israel's AI Fortress",
@@ -43,7 +38,6 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          {process.env.NODE_ENV === 'development' && <StagewiseToolbar config={stagewiseConfig} />}
         </ThemeProvider>
       </body>
     </html>
