@@ -238,7 +238,9 @@ export default function TracksPage() {
                   </div>
                 </CardContent>
                 <CardFooter>
-                  <Button className="w-full">Apply to Founder Track</Button>
+                  <Button asChild className="w-full">
+                    <Link href="https://forms.gle/5Zi6HRqKRoNuzTEH7" target="_blank" rel="noopener noreferrer">Apply to Founder Track</Link>
+                  </Button>
                 </CardFooter>
               </Card>
 

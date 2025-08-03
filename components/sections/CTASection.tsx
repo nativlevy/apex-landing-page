@@ -21,7 +21,7 @@ export function CTASection() {
                 <Link href="/apply">Apply to Architect Track</Link>
               </Button>
               <Button asChild size="lg" variant="secondary">
-                <Link href="/apply">Apply to Founder Track</Link>
+                <Link href="https://forms.gle/5Zi6HRqKRoNuzTEH7" target="_blank" rel="noopener noreferrer">Apply to Founder Track</Link>
               </Button>
             </div>
           </div>
