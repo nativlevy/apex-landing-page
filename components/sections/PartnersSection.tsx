@@ -6,7 +6,7 @@ export function PartnersSection() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">Our Mentors & Lecturers From</h2>
+            <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">Our Mentors & Lecturers</h2>
             <p className="max-w-[700px] text-muted-foreground">
               Learn from industry leaders at the forefront of AI innovation.
             </p>
@@ -16,13 +16,6 @@ export function PartnersSection() {
  Pinecone, Nvidia, Ai21, Antropic , Snowflake, Aiwork, Bria, Bright data, Vast data, Aidoc, Anecdotes ai, d-ID, Run.ai, Deci ai,  L-Sport, Silverfort, Coralogix Redhat,  Monday, Zendesk,  Meckinzey, Jp Morgan, Blackrock, BCG,   Dream Security, Wiz, Eon.io, Google, Microsoft, IBM, Meta, Microsoft, */}
         <div className="mx-auto grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 items-center gap-8 py-8">
           {/* Universities */}
-          <Image
-            src="https://static.wixstatic.com/media/cb5f74_59fc2b6ebf98413eadbd799be6418e0e~mv2.png/v1/fill/w_192,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D7%9C%D7%95%D7%92%D7%95%20%D7%92%D7%93%D7%95%D7%9C%20%D7%91%D7%9C%D7%99%20%D7%A8%D7%A7%D7%A2%20%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA.png"
-            alt="8200"
-            width={120}
-            height={60}
-            className="object-contain h-12 w-auto mx-auto"
-          />
           <Image
             src="https://cdn.brandfetch.io/columbia.edu/w/400/h/400"
             alt="Columbia"
