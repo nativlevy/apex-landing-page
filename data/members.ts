@@ -24,7 +24,7 @@ export const communityMembers: Member[] = [
   { id: "gal", name: "Gal Peretz", description: "Head of AI @ Carbyne | Co-Host @ LangTalks podcast", imageSrc: "/team/gal_perez.png", linkedinUrl: "https://www.linkedin.com/in/gal-peretz/" },
   { id: "shlomi", name: "Shlomi Boutnaru, Ph.D.", description: "Post Exit Founder", imageSrc: "/team/shlomi.jpeg", linkedinUrl: "https://www.linkedin.com/in/shlomi-boutnaru-ph-d-ba781811a/" },
   { id: "roy_m", name: "Roy Miara", description: "Director of Machine Learning at Pinecone", imageSrc: "/team/miara.png", linkedinUrl: "https://www.linkedin.com/in/miararoy/" },
-  { id: "shahar_l", name: "Shahar_Lutati", description: "AI Architect, Hard problem solver, PhD", imageSrc: "/team/shahar_lutati.jpeg", linkedinUrl: "https://www.linkedin.com/in/shahar-lutati-4b4863118/" },
+  { id: "shahar_l", name: "Shahar Lutati", description: "AI Architect, Hard problem solver, PhD", imageSrc: "/team/shahar_lutati.jpeg", linkedinUrl: "https://www.linkedin.com/in/shahar-lutati-4b4863118/" },
   { id: "stav_l", name: "Stav Levy", description: "CEO and Co-Founder @ Alta | AI Revenue Workforce", imageSrc: "/team/stav_levy.jfif", linkedinUrl: "https://www.linkedin.com/in/stav-levy/" },
   { id: "yael_d", name: "Yael Daihes", description: "AI and Data Builder, Independent Consultant", imageSrc: "/team/yael_daihes.jfif", linkedinUrl: "https://www.linkedin.com/in/yael-daihes/" },
   { id: "seffi_c", name: "Seffi Cohen", description: "Chief Data Scientist, AI Expert, PhD", imageSrc: "/team/seffi_cohen.jfif", linkedinUrl: "https://www.linkedin.com/in/seffi-cohen/" },
