@@ -18,8 +18,7 @@ import {
   TracksSection,
   PricingSection,
   CTASection,
-  QASection,
-  AIRankingSection
+  QASection
 } from "@/components/sections"
 import { Community } from "@/components/community"
 
@@ -33,7 +32,6 @@ export default function Home() {
         <Community />
         <AboutSection />
         <VisionSection />
-        <AIRankingSection />
         <PartnersSection />
         <FeaturesSection />
         <TracksSection />

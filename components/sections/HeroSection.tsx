@@ -15,7 +15,7 @@ export function HeroSection() {
                 Building Israel&apos;s AI Fortress
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-              APEX is a grassroots movement built by Israel's elite tech units alumni to secure the nation's AI edge
+              APEX is a national launchpad, founded by elite tech units alumni to secure Israel's future in AI.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -26,12 +26,11 @@ export function HeroSection() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-            src="https://images.unsplash.com/photo-1598087495082-15d7dd26cf53?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              // src="https://images.unsplash.com/photo-1544971587-b842c27f8e14?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              width={550}
-              height={550}
-              alt="APEX AI Initiative"
-              className="rounded-xl object-cover"
+              src="/venn apex.png"
+              width={600}
+              height={600}
+              alt="APEX: Future of AI meets Israeli Edge"
+              className="rounded-xl object-contain"
             />
           </div>
         </div>

@@ -19,7 +19,7 @@ export function AboutSection() {
               Why We&apos;re Building APEX
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We&apos;re Zionists, and we believe Israel must keep leading at the edge of technology.
+              It&apos;s our national duty to secure Israel&apos;s edge - by turning talent into sovereignty.
             </p>
           </div>
         </div>
@@ -28,8 +28,8 @@ export function AboutSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               {
-                title: "From Fast Wins to Future Leadership",
-                content: "Israel leads in cyber-fast wins, clear playbook. To stay ahead, we have to build. We can't afford to fall behind."
+                title: "From Cyber to enduring AI Leadership",
+                content: "Israel leads in cyber-fast wins, clear playbook. To stay ahead, we have to build.\n\nDrafting the AI playbook - deeper tech, higher stakes, longer-term wins."
               },
               {
                 title: "Filling the Gap",
@@ -37,7 +37,7 @@ export function AboutSection() {
               },
               {
                 title: "Israel's Edge in AI",
-                content: "Israel's advantage isn't data or GPUs-it's elite technical talent with a bias for action. From the army to the startup world, Israelis thrive in complexity and move fast."
+                content: "Not data. Not GPUs. Talent.\n\nIsraelis are infrastructure natives - engineers who turn scarcity into performance.\n\nWe channel that precision and pressure-tested mindset to build a sovereign AI ecosystem -faster, smarter, stronger."
               }
             ].map((item, index) => (
               // <motion.div
@@ -63,7 +63,20 @@ export function AboutSection() {
                     {item.title}
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    {item.content.split('national vulnerability').length > 1 ? (
+                    {item.content.includes('\n\n') ? (
+                      item.content.split('\n\n').map((paragraph, idx) => (
+                        <span key={idx}>
+                          {paragraph.includes('we have to build') ? (
+                            <>
+                              {paragraph.split('we have to build')[0]}
+                              <span className="font-semibold text-primary">we have to build</span>
+                              {paragraph.split('we have to build')[1]}
+                            </>
+                          ) : paragraph}
+                          {idx < item.content.split('\n\n').length - 1 && <><br /><br /></>}
+                        </span>
+                      ))
+                    ) : item.content.split('national vulnerability').length > 1 ? (
                       <>
                         {item.content.split('national vulnerability')[0]}
                         <span className="font-semibold text-primary">national vulnerability</span>

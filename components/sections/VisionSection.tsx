@@ -19,13 +19,16 @@ export function VisionSection() {
             <Pyramid className="h-8 w-8 text-primary" style={{ transform: "rotate(180deg)" }} />
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
-            Our Vision: The Flipped Pyramid
+            Our Vision
           </h2>
           <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground leading-relaxed font-light">
-            APEX empowers Israel's elite tech talent to spearhead the AI revolution. By <span className="font-semibold text-foreground">flipping the pyramid</span>, we use top talent to lift the entire ecosystem and drive inclusive growth, securing Israel's AI dominance.
+            APEX unites elite minds from the army, academia, and industry to build a sovereign AI ecosystem - fast-tracking founders and builders to lead breakthrough ventures, born in Israel and built for the world.
           </p>
           <p className="text-2xl md:text-3xl lg:text-4xl font-bold mt-8 text-foreground">
-            5 Years. 500 Founders. 500 AI-Native Architects.
+            5 Years. 150 Founders. 500 AI Architects.
+          </p>
+          <p className="text-xl md:text-2xl lg:text-3xl font-semibold mt-4 text-primary">
+            1 Nation Building Its Tech Sovereignty.
           </p>
         {/* </motion.div> */} </div>
       </div>
