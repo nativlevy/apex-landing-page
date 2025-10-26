@@ -3,6 +3,13 @@ import { Button } from "@/components/ui/button"
 import { MobileNav } from "@/components/mobile-nav"
 import { Logo } from "@/components/ui/logo"
 import { ThemeToggle } from "@/components/theme-toggle"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+import { ChevronDown } from "lucide-react"
 
 interface NavbarProps {
   activePage?: "home" | "tracks" | "team"
@@ -34,12 +41,20 @@ export function Navbar({ activePage }: NavbarProps) {
           >
             Tracks
           </Link>
-          <Link 
-            href="/community" 
-            className={`text-base font-medium transition-colors hover:text-primary ${activePage === "team" ? "text-primary" : ""}`}
-          >
-            Community
-          </Link>
+          <DropdownMenu>
+            <DropdownMenuTrigger className={`text-base font-medium transition-colors hover:text-primary flex items-center gap-1 ${activePage === "team" ? "text-primary" : ""}`}>
+              Community
+              <ChevronDown className="h-4 w-4" />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent>
+              <DropdownMenuItem asChild>
+                <Link href="/community">Community</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/community/alumni">Alumni</Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </nav>
         <div className="flex items-center gap-4">
           <ThemeToggle />

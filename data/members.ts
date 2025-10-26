@@ -7,6 +7,13 @@ export interface Member {
   isFounder?: boolean; // Optional: to distinguish if needed, though not used by showcase
 }
 
+export interface Alumni {
+  id: string;
+  name: string;
+  imageSrc: string;
+  cohort?: string;
+}
+
 export const foundingTeamMembers: Member[] = [
   { id: "avishag", name: "Avishag Bohbot", description: "Venture Builder VelocityX, Social Entrepreneur", imageSrc: "/team/avishag.jpeg", linkedinUrl: "https://www.linkedin.com/in/avishagbohbot/", isFounder: true },
   { id: "tal", name: "Tal Fialkow", description: "VP Cyber AI at Dream", imageSrc: "/team/tal.jpeg", linkedinUrl: "https://www.linkedin.com/in/tal-fialkow-486b8455/", isFounder: true },
@@ -54,3 +61,37 @@ export const communityMembers: Member[] = [
 ];
 
 export const allMembers: Member[] = [...foundingTeamMembers, ...communityMembers];
+
+// Alumni from first APEX Architect Beta Cohort
+export const alumniMembers: Alumni[] = [
+  { id: "alumni-1", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-2", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-3", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-4", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-5", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-6", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-7", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-8", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-9", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-10", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-11", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-12", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-13", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-14", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-15", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-16", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-17", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-18", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-19", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-20", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-21", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-22", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-23", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-24", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-25", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-26", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-27", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-28", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-29", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+  { id: "alumni-30", name: "Placeholder Alumnus", imageSrc: "/placeholder-user.jpg", cohort: "Beta Cohort 2024" },
+];

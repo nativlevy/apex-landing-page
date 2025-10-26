@@ -4,13 +4,15 @@ import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet"
-import { Menu, X } from "lucide-react"
+import { Menu, X, ChevronDown, ChevronUp } from "lucide-react"
 import { Logo } from "@/components/ui/logo"
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden"
 import { ThemeToggle } from "@/components/theme-toggle"
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
 
 export function MobileNav() {
   const [open, setOpen] = useState(false)
+  const [communityOpen, setCommunityOpen] = useState(false)
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -49,13 +51,32 @@ export function MobileNav() {
           >
             Tracks
           </Link>
-          <Link
-            href="/community"
-            className="text-base font-medium transition-colors hover:text-primary"
-            onClick={() => setOpen(false)}
-          >
-            Community
-          </Link>
+          <Collapsible open={communityOpen} onOpenChange={setCommunityOpen}>
+            <CollapsibleTrigger className="flex w-full items-center justify-between text-base font-medium transition-colors hover:text-primary">
+              Community
+              {communityOpen ? (
+                <ChevronUp className="h-4 w-4" />
+              ) : (
+                <ChevronDown className="h-4 w-4" />
+              )}
+            </CollapsibleTrigger>
+            <CollapsibleContent className="pl-4 space-y-2">
+              <Link
+                href="/community"
+                className="block text-sm transition-colors hover:text-primary"
+                onClick={() => setOpen(false)}
+              >
+                Community
+              </Link>
+              <Link
+                href="/community/alumni"
+                className="block text-sm transition-colors hover:text-primary"
+                onClick={() => setOpen(false)}
+              >
+                Alumni
+              </Link>
+            </CollapsibleContent>
+          </Collapsible>
         </nav>
         <div className="flex flex-col gap-4 mt-auto">
           <div className="flex items-center gap-2">
