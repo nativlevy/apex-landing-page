@@ -28,7 +28,7 @@ export const communityMembers: Member[] = [
   { id: "yaron", name: "Yaron Rosen", description: "Apex Advisory, Entrepreneur, a16z Scout, angel investor. Brig. General (Res.), Former Air Force Division commander, and Chief of IDF Cyber Staff. Reichman University ICT Research Fellow.", imageSrc: "/team/harris.jpg", linkedinUrl: "https://www.linkedin.com/in/yaron-rosen-3b46296/" },
   { id: "omer", name: "Omer Dagan", description: "Apex Advisory, Ex Commander Lotem, Senior Leadership | Entrepreneur | Impact | People-Centric | Mamram Alumni", imageSrc: "/team/omer.png", linkedinUrl: "https://www.linkedin.com/in/omer-dagan-%F0%9F%8E%97%EF%B8%8F-957916149/" },
   { id: "david_m", name: "David Magerman", description: "Apex Advisory, Co-Founder @ Differential Ventures | PhD in Computer Science, Quantitative Investing | Ex Renaissance Fund", imageSrc: "/team/david.png", linkedinUrl: "https://www.linkedin.com/in/david-magerman-954b25174/" },
-  { id: "danny_g", name: "Danny Grander", description: "Co-Founder Snyk | 🚀 Building What I Wish Existed. Betting on Those Who Dare.", imageSrc: "/team/danny_grander.png", linkedinUrl: "https://www.linkedin.com/in/grander/" },
+  { id: "danny_g", name: "Danny Grander", description: "Co-Founder Snyk | 🚀 Building What I Wish Existed. Betting on Those Who Dare.", imageSrc: "/team/danny_grander.jpeg", linkedinUrl: "https://www.linkedin.com/in/grander/" },
   { id: "rotem", name: "Rotem Lapid", description: "Head of AI, ORT Israel", imageSrc: "/team/rotem_lapid.png", linkedinUrl: "https://www.linkedin.com/in/rotem-lapid-98b42370/" },
   
   // Additional Advisory Members
