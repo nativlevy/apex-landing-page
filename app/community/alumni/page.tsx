@@ -1,8 +1,11 @@
+import Link from "next/link"
 import Image from "next/image"
-import { Card, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Navbar } from "@/components/navbar"
 import Footer from "@/components/footer"
 import { alumniMembers } from "@/data/members"
+import { Linkedin } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 
 export default function AlumniPage() {
@@ -43,8 +46,18 @@ export default function AlumniPage() {
                     />
                   </div>
                   <CardHeader className="p-4">
-                    <CardTitle className="text-lg text-center">{alumni.name}</CardTitle>
+                    <CardTitle className="text-lg">{alumni.name}</CardTitle>
+                    {alumni.description && (
+                      <CardDescription>{alumni.description}</CardDescription>
+                    )}
                   </CardHeader>
+                  <CardFooter className="p-4 flex justify-start gap-3 pt-0 mt-auto">
+                    <Link href={alumni.linkedinUrl} target="_blank" rel="noopener noreferrer">
+                      <Button variant="ghost" size="icon" aria-label="LinkedIn">
+                        <Linkedin className="h-5 w-5" />
+                      </Button>
+                    </Link>
+                  </CardFooter>
                 </Card>
               ))}
             </div>
