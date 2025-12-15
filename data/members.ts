@@ -18,9 +18,10 @@ export const foundingTeamMembers: Member[] = [
   { id: "avishag", name: "Avishag Bohbot", description: "Venture Builder VelocityX, Social Entrepreneur", imageSrc: "/team/avishag.jpeg", linkedinUrl: "https://www.linkedin.com/in/avishagbohbot/", isFounder: true },
   { id: "tal", name: "Tal Fialkow", description: "VP Cyber AI at Dream", imageSrc: "/team/tal.jpeg", linkedinUrl: "https://www.linkedin.com/in/tal-fialkow-486b8455/", isFounder: true },
   { id: "roy", name: "Roy Nissim", description: "2x Founder | PhD", imageSrc: "/team/roy.jpeg", linkedinUrl: "https://www.linkedin.com/in/roy-nissim/", isFounder: true },
-  { id: "nativ", name: "Nativ Levy", description: "Founder | ex-81", imageSrc: "/team/nativ.jpeg", linkedinUrl: "https://www.linkedin.com/in/nativ-levy/", isFounder: true },
+  { id: "amit", name: "Amit Buchman", description: "2x Founder", imageSrc: "/team/elroei.png", linkedinUrl: "https://www.linkedin.com/in/amit-buchman-a7710b228/", isFounder: true },
+  { id: "ofek", name: "Ofek Censor", description: "CEO at Rosewood Systems", imageSrc: "/team/ofek.jpeg", linkedinUrl: "https://www.linkedin.com/in/ofekc/", isFounder: true },
   { id: "elroei", name: "Elroei Buchman", description: "Venture Builder", imageSrc: "/team/elroei.png", linkedinUrl: "https://www.linkedin.com/in/elroei-buchman-9b59931/", isFounder: true },
-  { id: "ofek", name: "Ofek Censor", description: "Building", imageSrc: "/team/ofek.jpeg", linkedinUrl: "https://www.linkedin.com/in/ofekc/", isFounder: true },
+
 ];
 
 export const communityMembers: Member[] = [
@@ -52,23 +53,19 @@ export const communityMembers: Member[] = [
   // Rest of community
   { id: "adi", name: "Adi Glasman", description: "Vice President of Engineering & Data Zendesk", imageSrc: "/team/adi.jpeg", linkedinUrl: "https://www.linkedin.com/in/glasman/" },
   { id: "david_k", name: "David Kadouch", description: "Google AI, Technion", imageSrc: "/team/david_kadouch.jfif", linkedinUrl: "https://www.linkedin.com/in/davidkad/" },
-  { id: "dan_s", name: "Dan Shimshi", description: "System Engineer, APEX Pedagogy support", imageSrc: "/team/dan_shimshi.jpg", linkedinUrl: "https://www.linkedin.com/in/dan-shimshi/" },
   { id: "gal", name: "Gal Peretz", description: "Head of AI @ Carbyne | Co-Host @ LangTalks podcast", imageSrc: "/team/gal_perez.png", linkedinUrl: "https://www.linkedin.com/in/gal-peretz/" },
   { id: "assaf_e", name: "Assaf Elovic", description: "Director, Head of AI at monday.com", imageSrc: "/team/assaf_elovic.jpeg", linkedinUrl: "https://www.linkedin.com/in/assafe/" },
-  { id: "gil_e", name: "Gil Elbaz", description: "Builder", imageSrc: "/team/gil_elbaz.png", linkedinUrl: "https://www.linkedin.com/in/gil-elbaz/" },
-  { id: "shlomi", name: "Shlomi Boutnaru, Ph.D.", description: "Post Exit Founder", imageSrc: "/team/shlomi.jpeg", linkedinUrl: "https://www.linkedin.com/in/shlomi-boutnaru-ph-d-ba781811a/" },
   { id: "roy_m", name: "Roy Miara", description: "Director of Machine Learning at Pinecone", imageSrc: "/team/miara.png", linkedinUrl: "https://www.linkedin.com/in/miararoy/" },
-  { id: "yonatan_a", name: "Yonatan Amir", description: "Founder & President at Diagnostic Robotics", imageSrc: "/team/yonatan_amir.jpeg", linkedinUrl: "https://www.linkedin.com/in/yonatan-amir/" },
-  { id: "elad_l", name: "Elad Levi", description: "CTO at Plurai, PhD", imageSrc: "/team/elad_levi.jpeg", linkedinUrl: "https://www.linkedin.com/in/elad-levi-a938a3121/" },
-  { id: "ilan_k", name: "Ilan Kadar", description: "CEO at Plurai, PhD", imageSrc: "/team/ilan_kader.jpeg", linkedinUrl: "https://www.linkedin.com/in/ilan-kadar-b57ba511b/" },
-  { id: "avior_b", name: "Avior Barouch", description: "Security Research Director at Paragon", imageSrc: "/team/avior.png", linkedinUrl: "https://www.linkedin.com/in/avior-b-793b21203/" },
-  { id: "benny_m", name: "Benny Meir", description: "DevOps Ninja", imageSrc: "/team/benny_meir.png", linkedinUrl: "" },
-  { id: "almog_b", name: "Almog Baku", description: "GenAI Community Founder", imageSrc: "/team/almog_baku.png", linkedinUrl: "https://www.linkedin.com/in/almogbaku/" },
-  { id: "ofer_h", name: "Ofer Herman", description: "Co-founder & CTO Papaya Global", imageSrc: "/team/ofer_herman.jpeg", linkedinUrl: "https://www.linkedin.com/in/oferherman/" },
-  { id: "tamir_m", name: "Tamir Meerovitch", description: "Sr. Growth Strategy Executive at Frost & Sullivan", imageSrc: "/team/tal_meerovitch.jpeg", linkedinUrl: "https://www.linkedin.com/in/tamir-meerovitch/" },
-  { id: "itzik_p", name: "Itzik Polad", description: "Chief Data Officer at LSports", imageSrc: "/team/itzik.webp", linkedinUrl: "https://www.linkedin.com/in/itzik-polad/" },
   { id: "gadi_l", name: "Gadi Lifshitz", description: "Ex Director Meta, Ex CTO at Sygnia", imageSrc: "/team/gadi.jpeg", linkedinUrl: "https://www.linkedin.com/in/lgadi/" },
   { id: "ido_b", name: "Ido Ben Shaul", description: "AA-I Technologies", imageSrc: "/team/ido_ben_shaul.png", linkedinUrl: "https://www.linkedin.com/in/ido-ben-shaul-482449147/" },
+  { id: "elad_l", name: "Elad Levi", description: "CTO at Plurai, PhD", imageSrc: "/team/elad_levi.jpeg", linkedinUrl: "https://www.linkedin.com/in/elad-levi-a938a3121/" },
+  { id: "ilan_k", name: "Ilan Kadar", description: "CEO at Plurai, PhD", imageSrc: "/team/ilan_kader.jpeg", linkedinUrl: "https://www.linkedin.com/in/ilan-kadar-b57ba511b/" },
+  { id: "nativ", name: "Nativ Levy", description: "Head of AI at AI-IL", imageSrc: "/team/nativ.jpeg", linkedinUrl: "https://www.linkedin.com/in/nativ-levy/" },
+  { id: "benny_m", name: "Benny Meir", description: "DevOps Ninja", imageSrc: "/team/benny_meir.png", linkedinUrl: "" },
+  { id: "almog_b", name: "Almog Baku", description: "GenAI Community Founder", imageSrc: "/team/almog_baku.png", linkedinUrl: "https://www.linkedin.com/in/almogbaku/" },
+  { id: "tamir_m", name: "Tamir Meerovitch", description: "Sr. Growth Strategy Executive at Frost & Sullivan", imageSrc: "/team/tal_meerovitch.jpeg", linkedinUrl: "https://www.linkedin.com/in/tamir-meerovitch/" },
+  { id: "itzik_p", name: "Itzik Polad", description: "Chief Data Officer at LSports", imageSrc: "/team/itzik.webp", linkedinUrl: "https://www.linkedin.com/in/itzik-polad/" },
+  
 ];
 
 export const allMembers: Member[] = [...foundingTeamMembers, ...communityMembers];
@@ -97,8 +94,8 @@ export const alumniMembers: Alumni[] = [
   { id: "eran_hirsch", name: "Eran Hirsch", description: "Freelance Full-Stack, Ex-Meta", imageSrc: "/alumni/eran_hirsch.jpeg", linkedinUrl: "https://www.linkedin.com/in/eranhirsch/", cohort: "Beta Cohort 2024" },
   { id: "eran_hertzmann", name: "Eran Hertzmann", description: "Product Executive | AI-Powered Digital Health", imageSrc: "/alumni/eran_hertzmann.jpeg", linkedinUrl: "https://www.linkedin.com/in/eran-hertzmann-24a400/", cohort: "Beta Cohort 2024" },
   { id: "zvi_wexlstein", name: "Zvi Wexlstein", description: "Software Architect at Polar (An IBM Company)", imageSrc: "/alumni/zvi_wexlstein.jpeg", linkedinUrl: "https://www.linkedin.com/in/zvi-wexlstein/", cohort: "Beta Cohort 2024" },
-  { id: "ronen_tur", name: "Ronen Tur", description: "Director of Algorithms and Deep Learning", imageSrc: "/alumni/ronen_tur.jpeg", linkedinUrl: "https://www.linkedin.com/in/ronen-tur-641a0a18/", cohort: "Beta Cohort 2024" },
-  { id: "roee_yaron", name: "Roee Yaron", description: "Physicist @ Ministry of Defense", imageSrc: "/alumni/roee_yaron.jpg", linkedinUrl: "https://www.linkedin.com/", cohort: "Beta Cohort 2024" },
+  { id: "ronen_tur", name: "Ronen Tur", description: "Director of Algorithms and Deep Learning | Talpiot", imageSrc: "/alumni/ronen_tur.jpeg", linkedinUrl: "https://www.linkedin.com/in/ronen-tur-641a0a18/", cohort: "Beta Cohort 2024" },
+  { id: "roee_yaron", name: "Roee Yaron", description: "Physicist @ Ministry of Defense | Talpiot", imageSrc: "/alumni/roee_yaron.jpg", linkedinUrl: "https://www.linkedin.com/", cohort: "Beta Cohort 2024" },
   { id: "rami_anati", name: "Rami anati", description: "Team Lead, Back End Project Manager", imageSrc: "/alumni/rami_anati.jpeg", linkedinUrl: "https://www.linkedin.com/in/ramianati/", cohort: "Beta Cohort 2024" },
   { id: "shachar_cohen", name: "Shachar Cohen", description: "Software R&D Engineer and Manager | Talpiot", imageSrc: "/alumni/shachar_cohen.jpeg", linkedinUrl: "https://www.linkedin.com/in/shachar-cohen-480b86205/", cohort: "Beta Cohort 2024" },
   { id: "shai_elroy", name: "Shai Elroy", description: "R&D Team Lead, Cyber", imageSrc: "/alumni/shai_elroy.jpeg", linkedinUrl: "https://www.linkedin.com/in/shai-elroy/", cohort: "Beta Cohort 2024" },
